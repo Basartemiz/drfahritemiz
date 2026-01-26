@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "Op. Dr. Fahri Temiz | Gynecologist in Izmir Buca, Turkey",
+    "description": "Expert gynecologist and obstetrician in Izmir Buca, Turkey. Pregnancy care, childbirth, gynecology, urogynecology, genital aesthetics. Best OB/GYN doctor in Buca. ☎ +90 532 237 04 78"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "videos": "Videos",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "appointment": "Book Appointment"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Women's Health in Izmir Buca",
+      "subtitle": "Expert care in obstetrics and gynecology with 15+ years of experience",
+      "cta": "Book Appointment"
+    },
+    "slide2": {
+      "title": "Modern Medicine, Personal Approach",
+      "subtitle": "State-of-the-art equipped clinic in Buca",
+      "cta": "Our Services"
+    },
+    "slide3": {
+      "title": "With You on Your Journey to Motherhood",
+      "subtitle": "Professional support from pregnancy to delivery in Izmir",
+      "cta": "Get in Touch"
+    }
+  },
+  "features": {
+    "technology": {
+      "title": "Latest Technology",
+      "desc": "Most up-to-date medical devices and ultrasound systems"
+    },
+    "support": {
+      "title": "24/7 Support",
+      "desc": "Always reachable in emergencies"
+    },
+    "personal": {
+      "title": "Personalized Care",
+      "desc": "Custom treatment plan for each patient"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Op. Dr. Fahri Temiz",
+    "intro": "Op. Dr. Fahri Temiz is an experienced physician specialized in obstetrics and gynecology in Izmir Buca, with over 15 years of experience. He provides reliable and personalized healthcare services to patients from Buca and surrounding districts using all the possibilities of modern medicine.",
+    "experience": "As one of Izmir's most experienced obstetricians and gynecologists, he offers services in a wide range from pregnancy follow-up to gynecological surgery, from urogynecology to aesthetic gynecology. Patients from Buca, Konak, Karabaglar, Gaziemir, and Bornova prefer our clinic.",
+    "philosophy": "Our philosophy is to recognize that each woman's health needs are unique and to shape treatment accordingly.",
+    "readMore": "Learn More",
+    "certifications": "Certifications and Memberships",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How can I book an appointment?",
+      "a1": "You can easily book an appointment by contacting us via WhatsApp or phone.",
+      "q2": "What is the examination fee?",
+      "a2": "Please contact us for detailed information about examination fees.",
+      "q3": "Which insurance providers do you work with?",
+      "a3": "We work with SGK and private insurance providers. Please contact us for details.",
+      "q4": "How is pregnancy follow-up done?",
+      "a4": "Regular check-ups, ultrasound follow-ups, and necessary screening tests are performed throughout pregnancy."
+    }
+  },
+  "services": {
+    "title": "Women's Health Services in Izmir Buca",
+    "subtitle": "Comprehensive gynecology and obstetrics services in Buca",
+    "viewAll": "All Services",
+    "learnMore": "Learn More",
+    "pregnancy": {
+      "title": "Pregnancy Follow-up",
+      "desc": "Regular monitoring of mother and baby health during pregnancy"
+    },
+    "ultrasound": {
+      "title": "Detailed Ultrasound",
+      "desc": "Detailed baby imaging and anomaly screening with 3D/4D ultrasound"
+    },
+    "birth": {
+      "title": "Delivery",
+      "desc": "Natural birth and cesarean operations"
+    },
+    "gynecology": {
+      "title": "Gynecology",
+      "desc": "Diagnosis and treatment of women's diseases"
+    },
+    "urogynecology": {
+      "title": "Urogynecology",
+      "desc": "Treatment of urinary incontinence and pelvic floor disorders"
+    },
+    "genitalAesthetics": {
+      "title": "Genital Aesthetics",
+      "desc": "Labioplasty and genital area aesthetic procedures"
+    },
+    "infertility": {
+      "title": "Infertility Treatment",
+      "desc": "Infertility evaluation and treatment planning"
+    },
+    "menopause": {
+      "title": "Menopause",
+      "desc": "Management of menopause symptoms"
+    },
+    "laser": {
+      "title": "Gynecological Laser",
+      "desc": "Vaginal laxity and atrophy treatment"
+    },
+    "uterine": {
+      "title": "Uterine Diseases",
+      "desc": "Treatment of fibroids, polyps, and endometriosis"
+    },
+    "ovarian": {
+      "title": "Ovarian Diseases",
+      "desc": "Treatment of ovarian cysts and PCOS"
+    },
+    "pelvic": {
+      "title": "Pelvic Floor",
+      "desc": "Treatment of pelvic organ prolapse"
+    },
+    "kurtaj": {
+      "title": "Pregnancy Termination",
+      "desc": "Safe pregnancy termination procedures within legal limits"
+    }
+  },
+  "testimonials": {
+    "title": "Patient Reviews",
+    "subtitle": "Our Patients' Experiences",
+    "1": {
+      "text": "Meeting Op. Dr. Fahri Temiz was one of the best things in my life. He followed me very well throughout my pregnancy and I gave birth safely."
+    },
+    "2": {
+      "text": "A very professional and caring doctor. He patiently answered all my questions. I definitely recommend him."
+    },
+    "3": {
+      "text": "I went to many doctors for my gynecological problems, but none were this explanatory and reassuring. Thank you."
+    },
+    "4": {
+      "text": "I chose him again for my second baby. Always reachable and caring. My husband was also very satisfied."
+    },
+    "5": {
+      "text": "I consulted for the problems I experienced during menopause. He was very helpful during the treatment process."
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Our Clinic and Equipment",
+    "photos": "Photos",
+    "videos": "Videos",
+    "clinic": "Clinic",
+    "equipment": "Equipment"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in Touch With Us",
+    "form": {
+      "name": "Your Full Name",
+      "email": "Your Email Address",
+      "phone": "Your Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Working Hours",
+      "weekdays": "Weekdays",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "closed": "Closed"
+    }
+  },
+  "cta": {
+    "title": "Book Gynecologist Appointment in Izmir Buca",
+    "subtitle": "Contact us via WhatsApp to book an appointment with the best OB/GYN doctor in Buca.",
+    "whatsapp": "Contact via WhatsApp",
+    "call": "Call Now"
+  },
+  "footer": {
+    "description": "Expert obstetrics and gynecology healthcare services in Izmir Buca. Yigitler Mah. Fevzi Cakmak Cad. No:2 Buca/Izmir",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "whatsapp": {
+    "tooltip": "Contact via WhatsApp"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "Op. Dr. Fahri Temiz | İzmir Buca Kadın Doğum Uzmanı - Jinekolog",
+    "description": "İzmir Buca kadın doğum uzmanı Op. Dr. Fahri Temiz. Gebelik takibi, normal doğum, sezaryen, jinekoloji, ürojinekoloji, genital estetik. Buca'da en iyi jinekolog. ☎ 0532 237 04 78"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "gallery": "Galeri",
+    "videos": "Videolar",
+    "testimonials": "Hasta Yorumları",
+    "contact": "İletişim",
+    "appointment": "Randevu Al"
+  },
+  "hero": {
+    "slide1": {
+      "title": "İzmir Buca'da Kadın Sağlığı",
+      "subtitle": "Kadın hastalıkları ve doğum alanında 15 yıllık deneyim ile uzman bakım",
+      "cta": "Randevu Al"
+    },
+    "slide2": {
+      "title": "Modern Tıp, Kişisel Yaklaşım",
+      "subtitle": "Buca'da en son teknoloji ile donatılmış muayenehane",
+      "cta": "Hizmetlerimiz"
+    },
+    "slide3": {
+      "title": "Annelik Yolculuğunuzda Yanınızdayız",
+      "subtitle": "İzmir'de gebelik takibinden doğuma kadar profesyonel destek",
+      "cta": "İletişime Geç"
+    }
+  },
+  "features": {
+    "technology": {
+      "title": "Son Teknoloji",
+      "desc": "En güncel tıbbi cihazlar ve ultrason sistemleri"
+    },
+    "support": {
+      "title": "7/24 Destek",
+      "desc": "Acil durumlarınızda her zaman ulaşılabilir"
+    },
+    "personal": {
+      "title": "Kişisel Tedavi",
+      "desc": "Her hastaya özel tedavi planı"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Op. Dr. Fahri Temiz",
+    "intro": "Op. Dr. Fahri Temiz, İzmir Buca'da kadın hastalıkları ve doğum alanında uzmanlaşmış, 15 yılı aşkın deneyime sahip bir hekimdir. Buca ve çevre ilçelerden gelen hastalarına modern tıbbın tüm imkânlarını sunarak, güvenilir ve kişiselleştirilmiş sağlık hizmeti vermektedir.",
+    "experience": "İzmir'in en deneyimli kadın doğum uzmanlarından biri olarak, gebelik takibinden jinekolojik cerrahiye, ürojinekolojiden estetik jinekolojiye kadar geniş bir yelpazede hizmet sunmaktadır. Buca, Konak, Karabağlar, Gaziemir ve Bornova'dan hastalar muayenehanemizi tercih etmektedir.",
+    "philosophy": "Felsefemiz, her kadının sağlık ihtiyaçlarının benzersiz olduğunu kabul etmek ve tedaviyi buna göre şekillendirmektir.",
+    "readMore": "Daha Fazla Bilgi",
+    "certifications": "Sertifikalar ve Üyelikler",
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "q1": "Randevu nasıl alabilirim?",
+      "a1": "WhatsApp üzerinden veya telefon ile bize ulaşarak kolayca randevu alabilirsiniz.",
+      "q2": "Muayene ücreti ne kadar?",
+      "a2": "Muayene ücretleri hakkında detaylı bilgi almak için lütfen bizimle iletişime geçin.",
+      "q3": "Hangi sigorta kurumları ile çalışıyorsunuz?",
+      "a3": "SGK ve özel sigorta kurumları ile anlaşmamız bulunmaktadır. Detaylar için iletişime geçebilirsiniz.",
+      "q4": "Gebelik takibi nasıl yapılıyor?",
+      "a4": "Gebelik süresince düzenli kontroller, ultrason takipleri ve gerekli tarama testleri yapılmaktadır."
+    }
+  },
+  "services": {
+    "title": "İzmir Buca'da Kadın Sağlığı Hizmetleri",
+    "subtitle": "Buca'da kapsamlı jinekoloji ve doğum hizmetleri",
+    "viewAll": "Tüm Hizmetler",
+    "learnMore": "Detaylı Bilgi",
+    "pregnancy": {
+      "title": "Gebelik Takibi",
+      "desc": "Hamilelik süresince anne ve bebek sağlığının düzenli kontrolü"
+    },
+    "ultrasound": {
+      "title": "Detaylı Ultrason",
+      "desc": "3D/4D ultrason ile detaylı bebek görüntüleme ve anomali taraması"
+    },
+    "birth": {
+      "title": "Doğum",
+      "desc": "Normal doğum ve sezaryen operasyonları"
+    },
+    "gynecology": {
+      "title": "Jinekoloji",
+      "desc": "Kadın hastalıklarının tanı ve tedavisi"
+    },
+    "urogynecology": {
+      "title": "Ürojinekoloji",
+      "desc": "İdrar kaçırma ve pelvik taban bozuklukları tedavisi"
+    },
+    "genitalAesthetics": {
+      "title": "Genital Estetik",
+      "desc": "Labioplasti ve genital bölge estetik işlemleri"
+    },
+    "infertility": {
+      "title": "Kısırlık Tedavisi",
+      "desc": "İnfertilite değerlendirmesi ve tedavi planlaması"
+    },
+    "menopause": {
+      "title": "Menopoz",
+      "desc": "Menopoz dönemi şikayetlerinin yönetimi"
+    },
+    "laser": {
+      "title": "Jinekolojik Lazer",
+      "desc": "Vajinal gevşeme ve atrofi tedavisi"
+    },
+    "uterine": {
+      "title": "Rahim Hastalıkları",
+      "desc": "Miyom, polip ve endometriozis tedavisi"
+    },
+    "ovarian": {
+      "title": "Over Hastalıkları",
+      "desc": "Yumurtalık kistleri ve PKOS tedavisi"
+    },
+    "pelvic": {
+      "title": "Pelvik Taban",
+      "desc": "Pelvik organ sarkması tedavisi"
+    },
+    "kurtaj": {
+      "title": "Kürtaj",
+      "desc": "Yasal sınırlar içinde güvenli gebelik sonlandırma işlemleri"
+    }
+  },
+  "testimonials": {
+    "title": "Hasta Yorumları",
+    "subtitle": "Hastalarımızın Deneyimleri",
+    "1": {
+      "text": "Op. Dr. Fahri Temiz ile tanışmam hayatımın en güzel şeylerinden biri oldu. Hamileliğim boyunca beni çok iyi takip etti ve güvenle doğum yaptım."
+    },
+    "2": {
+      "text": "Çok profesyonel ve ilgili bir doktor. Her soruma sabırla cevap verdi. Kesinlikle tavsiye ederim."
+    },
+    "3": {
+      "text": "Jinekolojik sorunlarım için pek çok doktora gittim ama hiçbiri bu kadar açıklayıcı ve güven verici olmamıştı. Teşekkürler."
+    },
+    "4": {
+      "text": "İkinci bebeğimde de kendisini tercih ettim. Her zaman ulaşılabilir ve ilgili. Eşim de çok memnun kaldı."
+    },
+    "5": {
+      "text": "Menopoz döneminde yaşadığım sıkıntılar için başvurdum. Tedavi sürecinde çok yardımcı oldu."
+    }
+  },
+  "gallery": {
+    "title": "Galeri",
+    "subtitle": "Muayenehane ve Ekipmanlarımız",
+    "photos": "Fotoğraflar",
+    "videos": "Videolar",
+    "clinic": "Muayenehane",
+    "equipment": "Ekipmanlar"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bizimle İletişime Geçin",
+    "form": {
+      "name": "Adınız Soyadınız",
+      "email": "E-posta Adresiniz",
+      "phone": "Telefon Numaranız",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "info": {
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "hours": "Çalışma Saatleri",
+      "weekdays": "Hafta içi",
+      "saturday": "Cumartesi",
+      "sunday": "Pazar",
+      "closed": "Kapalı"
+    }
+  },
+  "cta": {
+    "title": "İzmir Buca'da Jinekolog Randevusu",
+    "subtitle": "Buca'da kadın doğum uzmanı randevusu almak için WhatsApp üzerinden hemen bize ulaşın.",
+    "whatsapp": "WhatsApp ile İletişim",
+    "call": "Hemen Ara"
+  },
+  "footer": {
+    "description": "İzmir Buca'da kadın hastalıkları ve doğum alanında uzman sağlık hizmeti. Yiğitler Mah. Fevzi Çakmak Cad. No:2 Buca/İzmir",
+    "quickLinks": "Hızlı Bağlantılar",
+    "contactInfo": "İletişim Bilgileri",
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları"
+  },
+  "whatsapp": {
+    "tooltip": "WhatsApp ile iletişim"
+  }
+}
