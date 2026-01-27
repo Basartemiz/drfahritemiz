@@ -223,18 +223,5 @@
   },
   "whatsapp": {
     "tooltip": "WhatsApp ile iletişim"
-  },
-  "upcomingTopics": {
-    "title": "Yaklaşan Konular",
-    "subtitle": "Ocak Ayı - Konu Başlıkları",
-    "topics": {
-      "1": "Hamilelikte D vitamini eksikliği nasıl anlaşılır?",
-      "2": "NST nedir, ne zaman yapılır ve hangi durumlarda gerekir?",
-      "3": "Gebelik takibinde yapılan rutin testler nelerdir?",
-      "4": "Tüp bağlama ameliyatından sonra hamile kalma şansı var mıdır?",
-      "5": "Genital siğilin en yaygın belirtileri",
-      "6": "PCOS'ta folik asit kullanımı",
-      "7": "Menopozdaki kadınlar için kanser tarama önerileri"
-    }
   }
 }
