@@ -1,7 +1,8 @@
 {
   "metadata": {
     "title": "Op. Dr. Fahri Temiz | İzmir Buca Kadın Doğum Uzmanı - Jinekolog",
-    "description": "İzmir Buca kadın doğum uzmanı Op. Dr. Fahri Temiz. Gebelik takibi, normal doğum, sezaryen, jinekoloji, ürojinekoloji, genital estetik. Buca'da en iyi jinekolog. ☎ 0532 237 04 78"
+    "description": "İzmir Buca kadın doğum uzmanı Op. Dr. Fahri Temiz. Gebelik takibi, normal doğum, sezaryen, jinekoloji, ürojinekoloji, genital estetik, labioplasti, kürtaj. Buca'da en iyi jinekolog. 25 yıllık deneyim. ☎ 0532 237 04 78",
+    "keywords": "izmir jinekolog, buca kadın doğum, izmir kadın doğum uzmanı, buca jinekolog, gebelik takibi izmir, doğum izmir, sezaryen buca, jinekoloji izmir, ürojinekoloji buca, genital estetik izmir, labioplasti buca, kürtaj izmir, vajinal estetik, idrar kaçırma tedavisi, kısırlık tedavisi izmir, konak kadın doğum, karabağlar jinekolog, gaziemir kadın doğum, bornova jinekoloji, alsancak kadın hastalıkları, karşıyaka jinekolog"
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -15,18 +16,18 @@
   },
   "hero": {
     "slide1": {
-      "title": "İzmir Buca'da Kadın Sağlığı",
-      "subtitle": "Kadın hastalıkları ve doğum alanında 25 yıllık deneyim ile uzman bakım",
+      "title": "İzmir Buca'da Kadın Doğum Uzmanı",
+      "subtitle": "Kadın hastalıkları ve doğum alanında 25 yıllık deneyim ile uzman jinekolog hizmeti - Buca, Konak, Karabağlar, Gaziemir",
       "cta": "Randevu Al"
     },
     "slide2": {
-      "title": "Modern Tıp, Kişisel Yaklaşım",
-      "subtitle": "Buca'da en son teknoloji ile donatılmış muayenehane",
+      "title": "Modern Jinekoloji Kliniği",
+      "subtitle": "İzmir Buca'da en son teknoloji ultrason ve muayene cihazları ile donatılmış kadın hastalıkları merkezi",
       "cta": "Hizmetlerimiz"
     },
     "slide3": {
-      "title": "Annelik Yolculuğunuzda Yanınızdayız",
-      "subtitle": "İzmir'de gebelik takibinden doğuma kadar profesyonel destek",
+      "title": "Gebelik Takibi ve Doğum",
+      "subtitle": "İzmir'de gebelik takibi, 4D ultrason, normal doğum ve sezaryen - Deneyimli kadın doğum uzmanı",
       "cta": "İletişime Geç"
     }
   },
@@ -54,87 +55,123 @@
     "certifications": "Sertifikalar ve Üyelikler",
     "faq": {
       "title": "Sık Sorulan Sorular",
-      "q1": "Randevu nasıl alabilirim?",
-      "a1": "WhatsApp üzerinden veya telefon ile bize ulaşarak kolayca randevu alabilirsiniz.",
-      "q2": "Muayene ücreti ne kadar?",
-      "a2": "Muayene ücretleri hakkında detaylı bilgi almak için lütfen bizimle iletişime geçin.",
-      "q3": "Hangi sigorta kurumları ile çalışıyorsunuz?",
-      "a3": "SGK ve özel sigorta kurumları ile anlaşmamız bulunmaktadır. Detaylar için iletişime geçebilirsiniz.",
-      "q4": "Gebelik takibi nasıl yapılıyor?",
-      "a4": "Gebelik süresince düzenli kontroller, ultrason takipleri ve gerekli tarama testleri yapılmaktadır."
+      "q1": "Buca'da kadın doğum uzmanı var mı?",
+      "a1": "Evet, Op. Dr. Fahri Temiz İzmir Buca'da kadın hastalıkları ve doğum uzmanı olarak hizmet vermektedir. Yiğitler Mahallesi Fevzi Çakmak Caddesi No:2 adresinde muayenehanemiz bulunmaktadır.",
+      "q2": "İzmir Buca'da jinekolog randevusu nasıl alabilirim?",
+      "a2": "WhatsApp üzerinden 0532 237 04 78 numarasına mesaj atarak veya telefon ile arayarak kolayca randevu alabilirsiniz.",
+      "q3": "Gebelik takibi İzmir'de nerede yapılır?",
+      "a3": "İzmir Buca'da Op. Dr. Fahri Temiz muayenehanesinde kapsamlı gebelik takibi yapılmaktadır. Modern ultrason cihazları ve deneyimli ekip ile güvenli gebelik takibi hizmeti sunulmaktadır.",
+      "q4": "Buca'da en iyi jinekolog kimdir?",
+      "a4": "Op. Dr. Fahri Temiz, 25 yılı aşkın deneyime sahip, İzmir Buca'da en çok tercih edilen jinekolog ve kadın doğum uzmanlarından biridir. Buca, Konak, Karabağlar, Gaziemir ve Bornova'dan hastalar tarafından tercih edilmektedir.",
+      "q5": "İzmir Buca'da 4D ultrason nerede çekilir?",
+      "a5": "Op. Dr. Fahri Temiz muayenehanesinde modern 4D ultrason cihazları ile detaylı ultrason hizmeti sunulmaktadır. Detaylı anomali taraması ve fetal görüntüleme yapılmaktadır.",
+      "q6": "Buca'da normal doğum yapan doktor var mı?",
+      "a6": "Evet, Op. Dr. Fahri Temiz İzmir Buca'da hem normal doğum hem de sezaryen operasyonları gerçekleştirmektedir. Deneyimli ekibiyle güvenli doğum hizmeti sunulmaktadır.",
+      "q7": "İzmir Buca'da genital estetik yapan yer var mı?",
+      "a7": "Evet, Op. Dr. Fahri Temiz İzmir Buca'da labioplasti, vajinal estetik ve genital bölge estetik işlemleri uygulamaktadır. Modern tekniklerle güvenli ve estetik sonuçlar elde edilmektedir.",
+      "q8": "Buca'da idrar kaçırma tedavisi yapılıyor mu?",
+      "a8": "Evet, Op. Dr. Fahri Temiz İzmir Buca'da ürojinekoloji alanında idrar kaçırma tedavisi, pelvik taban rehabilitasyonu ve mesane sarkması tedavisi sunmaktadır."
     }
   },
   "services": {
-    "title": "İzmir Buca'da Kadın Sağlığı Hizmetleri",
-    "subtitle": "Buca'da kapsamlı jinekoloji ve doğum hizmetleri",
+    "title": "İzmir Buca Kadın Doğum ve Jinekoloji Hizmetleri",
+    "subtitle": "İzmir Buca'da kapsamlı kadın hastalıkları, gebelik takibi, doğum, jinekoloji ve ürojinekoloji hizmetleri. 25 yıllık deneyimli jinekolog Op. Dr. Fahri Temiz ile tanışın.",
     "viewAll": "Tüm Hizmetler",
     "learnMore": "Detaylı Bilgi",
+    "kurtaj": {
+      "title": "Kürtaj",
+      "desc": "İzmir Buca'da güvenli ve yasal kürtaj hizmetleri. Yasal süre sınırları içinde, deneyimli kadın doğum uzmanı Op. Dr. Fahri Temiz ile hijyenik koşullarda gebelik sonlandırma işlemleri. İzmir, Konak, Karabağlar, Bornova ve çevre ilçelerden hastalarımıza hizmet veriyoruz.",
+      "items": {
+        "before": {
+          "title": "Kürtaj Öncesi Değerlendirme",
+          "desc": "İzmir Buca'da kürtaj öncesi kapsamlı değerlendirme: gebelik haftası belirleme, ultrasonografi, kan testleri ve tıbbi geçmiş analizi. Her hasta için kişiselleştirilmiş tedavi planı oluşturulur."
+        },
+        "method": {
+          "title": "Kürtaj Yöntemleri",
+          "desc": "İzmir'de medikal (ilaçlı) ve cerrahi (vakumlu aspirasyon) kürtaj yöntemleri uygulanmaktadır. Gebelik haftasına göre en uygun ve güvenli yöntem belirlenir, hijyenik ortamda işlem gerçekleştirilir."
+        },
+        "after": {
+          "title": "Kürtaj Sonrası Bakım",
+          "desc": "Buca'da kürtaj sonrası kontrol muayeneleri, komplikasyon takibi ve gerektiğinde psikolojik destek sağlanmaktadır. Hasta konforu ve güvenliği önceliğimizdir."
+        },
+        "legal": {
+          "title": "Yasal Süreler ve Haklar",
+          "desc": "Türkiye'de yasal kürtaj süreleri ve hasta hakları konusunda detaylı bilgilendirme yapılmaktadır. İzmir'de yasal düzenlemelere uygun, şeffaf ve güvenilir hizmet sunulmaktadır."
+        },
+        "counseling": {
+          "title": "Danışmanlık Hizmetleri",
+          "desc": "Karabağlar, Bornova ve çevre ilçelerden gelen hastalara ücretsiz danışmanlık hizmeti verilmektedir. Karar sürecinde profesyonel destek ve bilgilendirme sağlanır."
+        }
+      }
+    },
     "pregnancy": {
       "title": "Gebelik Takibi",
-      "desc": "Hamilelik süresince anne ve bebek sağlığının düzenli kontrolü"
+      "desc": "İzmir Buca'da kapsamlı gebelik takibi ve hamilelik kontrolü. 25 yıllık deneyimli kadın doğum uzmanı ile düzenli ultrason, NST, tarama testleri ve doğuma hazırlık. Konak, Karabağlar, Gaziemir, Bornova'dan hamile hastalarımız."
     },
     "ultrasound": {
       "title": "Detaylı Ultrason",
-      "desc": "3D/4D ultrason ile detaylı bebek görüntüleme ve anomali taraması"
+      "desc": "İzmir Buca'da 3D/4D ultrason ile detaylı bebek görüntüleme. Fetal anomali taraması, ikili test, üçlü test, detaylı fetal inceleme. Modern ultrason cihazları ile net görüntüler. Bornova, Konak, Karabağlar'dan hasta kabul ediyoruz."
     },
     "birth": {
       "title": "Doğum",
-      "desc": "Normal doğum ve sezaryen operasyonları"
+      "desc": "İzmir Buca'da normal doğum ve sezaryen operasyonları. Deneyimli kadın doğum uzmanı Op. Dr. Fahri Temiz eşliğinde güvenli doğum. Epidural anestezi ile ağrısız doğum seçeneği. Buca, Konak, Gaziemir'den doğum için tercih edilen klinik."
     },
     "gynecology": {
       "title": "Jinekoloji",
-      "desc": "Kadın hastalıklarının tanı ve tedavisi"
+      "desc": "İzmir Buca'da kapsamlı jinekolojik muayene ve kadın hastalıkları tedavisi. Smear testi, HPV taraması, kolposkopi, pelvik ultrason. Rahim ağzı kanseri taraması. Konak, Karabağlar, Bornova'dan jinekoloji hastaları kabul ediyoruz."
     },
     "urogynecology": {
       "title": "Ürojinekoloji",
-      "desc": "İdrar kaçırma ve pelvik taban bozuklukları tedavisi"
+      "desc": "İzmir Buca'da ürojinekoloji ve idrar kaçırma tedavisi. Stres inkontinans, urge inkontinans, pelvik taban rehabilitasyonu. Mesane sarkması tedavisi. Minimal invaziv cerrahi ile kalıcı çözümler. Gaziemir, Bornova, Karabağlar'dan hasta kabulü."
     },
     "genitalAesthetics": {
       "title": "Genital Estetik",
-      "desc": "Labioplasti ve genital bölge estetik işlemleri"
+      "desc": "İzmir Buca'da genital estetik ve labioplasti. Vajinal estetik, labioplasti, vajinal gençleştirme lazer uygulamaları. Deneyimli jinekolog Op. Dr. Fahri Temiz ile güvenli ve estetik sonuçlar. Konak, Alsancak, Karşıyaka'dan hasta kabulü."
     },
     "infertility": {
       "title": "Kısırlık Tedavisi",
-      "desc": "İnfertilite değerlendirmesi ve tedavi planlaması"
+      "desc": "İzmir Buca'da infertilite değerlendirmesi ve kısırlık tedavisi. Tüp bebek öncesi değerlendirme, ovülasyon takibi, hormonal tedaviler. 25 yıllık deneyim. Bornova, Konak, Karabağlar'dan infertilite hastaları için uzman kadro."
     },
     "menopause": {
       "title": "Menopoz",
-      "desc": "Menopoz dönemi şikayetlerinin yönetimi"
+      "desc": "İzmir Buca'da menopoz tedavisi ve klimakterium dönemi yönetimi. Hormon replasman tedavisi, kemik erimesi takibi, menopoz semptomları tedavisi. Deneyimli kadın doğum uzmanı ile güvenli tedavi. Gaziemir, Bornova'dan hasta kabulü."
     },
     "uterine": {
       "title": "Rahim Hastalıkları",
-      "desc": "Miyom, polip ve endometriozis tedavisi"
+      "desc": "İzmir Buca'da miyom tedavisi, rahim polipi ve endometriozis cerrahisi. Rahim kanamaları, ağrılı adet tedavisi. Laparoskopik ve histeroskopik cerrahi. Modern teknoloji ile minimal invaziv tedavi. Konak, Karabağlar'dan hasta kabulü."
     },
     "ovarian": {
       "title": "Over Hastalıkları",
-      "desc": "Yumurtalık kistleri ve PKOS tedavisi"
+      "desc": "İzmir Buca'da yumurtalık kisti tedavisi ve PKOS (polikistik over sendromu) yönetimi. Over kanseri taraması, laparoskopik cerrahi. Hormonal tedaviler ve yaşam tarzı değişiklikleri. Bornova, Gaziemir'den hasta kabulü."
     },
     "pelvic": {
       "title": "Pelvik Taban",
-      "desc": "Pelvik organ sarkması tedavisi"
-    },
-    "kurtaj": {
-      "title": "Kürtaj",
-      "desc": "Yasal sınırlar içinde güvenli gebelik sonlandırma işlemleri"
+      "desc": "İzmir Buca'da pelvik organ sarkması tedavisi. Rahim sarkması, mesane sarkması, rektum sarkması. Pelvik taban güçlendirme, pesser uygulaması, cerrahi tedavi. Minimal invaziv yöntemler. Konak, Karabağlar'dan hasta kabul ediyoruz."
     }
   },
   "testimonials": {
     "title": "Hasta Yorumları",
-    "subtitle": "Hastalarımızın Deneyimleri",
+    "subtitle": "İzmir Buca'da Kadın Doğum Uzmanı Op. Dr. Fahri Temiz Hastalarının Deneyimleri",
     "1": {
-      "text": "Op. Dr. Fahri Temiz ile tanışmam hayatımın en güzel şeylerinden biri oldu. Hamileliğim boyunca beni çok iyi takip etti ve güvenle doğum yaptım."
+      "text": "Buca'da yaşıyorum ve Op. Dr. Fahri Temiz ile tanışmam hayatımın en güzel şeylerinden biri oldu. Hamileliğim boyunca beni çok iyi takip etti ve güvenle doğum yaptım. Konak'tan gelmeye değer!"
     },
     "2": {
-      "text": "Çok profesyonel ve ilgili bir doktor. Her soruma sabırla cevap verdi. Kesinlikle tavsiye ederim."
+      "text": "Karabağlar'dan geliyorum, çok profesyonel ve ilgili bir jinekolog. Her soruma sabırla cevap verdi. Gebelik takibim çok rahat geçti. Kesinlikle tavsiye ederim."
     },
     "3": {
-      "text": "Jinekolojik sorunlarım için pek çok doktora gittim ama hiçbiri bu kadar açıklayıcı ve güven verici olmamıştı. Teşekkürler."
+      "text": "Jinekolojik sorunlarım için Bornova'da pek çok doktora gittim ama hiçbiri bu kadar açıklayıcı ve güven verici olmamıştı. İzmir'in en iyi kadın doğum uzmanı. Teşekkürler Dr. Temiz."
     },
     "4": {
-      "text": "İkinci bebeğimde de kendisini tercih ettim. Her zaman ulaşılabilir ve ilgili. Eşim de çok memnun kaldı."
+      "text": "İkinci gebeliğimde de kendisini tercih ettim. Gaziemir'den geliyorum ve her zaman ulaşılabilir ve ilgili. Eşim de çok memnun kaldı. Doğum için en iyi tercih!"
     },
     "5": {
-      "text": "Menopoz döneminde yaşadığım sıkıntılar için başvurdum. Tedavi sürecinde çok yardımcı oldu."
+      "text": "Menopoz döneminde yaşadığım sıkıntılar için Buca'daki kliniğine başvurdum. Ürojinekoloji konusunda çok bilgili. Tedavi sürecinde çok yardımcı oldu. Teşekkür ederim."
+    },
+    "6": {
+      "text": "Genital estetik için geldim, Alsancak'tan. Labioplasti operasyonum çok başarılı geçti. Dr. Fahri Temiz gerçekten uzman. Sonuçtan çok memnunum."
+    },
+    "7": {
+      "text": "Kısırlık tedavisi için Karşıyaka'dan geldim. Ovülasyon takibi ve tedavi sonrası hamile kaldım. Op. Dr. Fahri Temiz'e sonsuz teşekkürler. Hayatımız değişti."
     }
   },
   "gallery": {
@@ -171,9 +208,9 @@
     }
   },
   "cta": {
-    "title": "İzmir Buca'da Jinekolog Randevusu",
-    "subtitle": "Buca'da kadın doğum uzmanı randevusu almak için WhatsApp üzerinden hemen bize ulaşın.",
-    "whatsapp": "WhatsApp ile İletişim",
+    "title": "İzmir Buca'da Kadın Doğum Uzmanı Randevusu",
+    "subtitle": "İzmir Buca, Konak, Karabağlar, Gaziemir ve Bornova'dan gelen hastalarımız için Op. Dr. Fahri Temiz ile randevu almak çok kolay. WhatsApp üzerinden hemen iletişime geçin.",
+    "whatsapp": "WhatsApp ile Randevu Al",
     "call": "Hemen Ara"
   },
   "footer": {

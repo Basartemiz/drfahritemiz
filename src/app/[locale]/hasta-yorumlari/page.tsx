@@ -1,120 +1,62 @@
-'use client';
+import type { Metadata } from 'next';
+import TestimonialsPageClient from './TestimonialsPageClient';
 
-import { useTranslations } from 'next-intl';
-import { Star, Quote } from 'lucide-react';
-import SectionHeading from '@/components/ui/SectionHeading';
-import CTASection from '@/components/home/CTASection';
-import { TESTIMONIALS } from '@/lib/constants';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://drfahritemiz.com';
 
-// Extended testimonials for the dedicated page
-const extendedTestimonials = [
-  ...TESTIMONIALS,
-  {
-    id: 6,
-    rating: 5,
-    textKey: '1.text',
-    author: 'N. A.',
-    date: '2023',
-  },
-  {
-    id: 7,
-    rating: 5,
-    textKey: '2.text',
-    author: 'H. Y.',
-    date: '2023',
-  },
-  {
-    id: 8,
-    rating: 5,
-    textKey: '3.text',
-    author: 'Z. K.',
-    date: '2023',
-  },
-];
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const isTr = locale === 'tr';
+
+  return {
+    title: isTr
+      ? 'Hasta Yorumları | Op. Dr. Fahri Temiz - İzmir Buca Jinekolog'
+      : 'Patient Reviews | Op. Dr. Fahri Temiz - Gynecologist Izmir Buca',
+    description: isTr
+      ? 'Op. Dr. Fahri Temiz hasta yorumları ve deneyimleri. İzmir Buca\'da kadın doğum uzmanı değerlendirmeleri. 500+ mutlu hasta, 5.0 puan, 25 yıl deneyim.'
+      : 'Op. Dr. Fahri Temiz patient reviews and experiences. Obstetrician reviews in Izmir Buca. 500+ happy patients, 5.0 rating, 25 years of experience.',
+    keywords: isTr
+      ? [
+          'Op. Dr. Fahri Temiz yorumları',
+          'buca jinekolog yorumları',
+          'izmir kadın doğum uzmanı değerlendirme',
+          'buca kadın doktoru deneyimleri',
+          'izmir en iyi jinekolog yorumları',
+          'buca doğum doktoru hasta yorumları',
+          'izmir jinekolog tavsiye',
+        ]
+      : [
+          'Op. Dr. Fahri Temiz reviews',
+          'buca gynecologist reviews',
+          'izmir obstetrician reviews',
+          'buca women doctor experiences',
+          'best gynecologist izmir reviews',
+        ],
+    openGraph: {
+      title: isTr
+        ? 'Hasta Yorumları | Op. Dr. Fahri Temiz - İzmir Buca'
+        : 'Patient Reviews | Op. Dr. Fahri Temiz - Izmir Buca',
+      description: isTr
+        ? 'İzmir Buca\'da kadın doğum uzmanı hasta deneyimleri ve yorumları'
+        : 'Patient experiences and reviews of obstetrician in Izmir Buca',
+      url: `${baseUrl}/${locale}/hasta-yorumlari`,
+      siteName: 'Op. Dr. Fahri Temiz',
+      locale: isTr ? 'tr_TR' : 'en_US',
+      type: 'website',
+    },
+    alternates: {
+      canonical: `${baseUrl}/${locale}/hasta-yorumlari`,
+      languages: {
+        'tr-TR': `${baseUrl}/tr/hasta-yorumlari`,
+        'en-US': `${baseUrl}/en/hasta-yorumlari`,
+      },
+    },
+  };
+}
 
 export default function TestimonialsPage() {
-  const t = useTranslations('testimonials');
-
-  return (
-    <>
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-primary-50 to-white py-16 md:py-20">
-        <div className="container-custom">
-          <SectionHeading title={t('title')} subtitle={t('subtitle')} />
-
-          {/* Stats */}
-          <div className="flex justify-center gap-12 mt-8">
-            <div className="text-center">
-              <p className="text-4xl font-bold text-primary-500">500+</p>
-              <p className="text-gray-600">Mutlu Hasta</p>
-            </div>
-            <div className="text-center">
-              <p className="text-4xl font-bold text-primary-500">5.0</p>
-              <div className="flex justify-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    className="w-4 h-4 fill-amber-400 text-amber-400"
-                  />
-                ))}
-              </div>
-            </div>
-            <div className="text-center">
-              <p className="text-4xl font-bold text-primary-500">25+</p>
-              <p className="text-gray-600">Yıl Deneyim</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Grid */}
-      <section className="section-padding">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {extendedTestimonials.map((testimonial) => (
-              <div
-                key={testimonial.id}
-                className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 relative"
-              >
-                {/* Quote icon */}
-                <Quote className="absolute top-4 right-4 w-10 h-10 text-primary-100" />
-
-                {/* Stars */}
-                <div className="flex gap-1 mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className="w-5 h-5 fill-amber-400 text-amber-400"
-                    />
-                  ))}
-                </div>
-
-                {/* Text */}
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  &ldquo;{t(`${testimonial.id > 5 ? testimonial.id - 5 : testimonial.id}.text`)}&rdquo;
-                </p>
-
-                {/* Author */}
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center">
-                    <span className="text-primary-500 font-semibold">
-                      {testimonial.author.charAt(0)}
-                    </span>
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-900">
-                      {testimonial.author}
-                    </p>
-                    <p className="text-sm text-gray-500">{testimonial.date}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <CTASection />
-    </>
-  );
+  return <TestimonialsPageClient />;
 }

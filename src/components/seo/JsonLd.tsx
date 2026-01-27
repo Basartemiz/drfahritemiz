@@ -61,6 +61,30 @@ export default function JsonLd({ locale }: JsonLdProps) {
         '@type': 'AdministrativeArea',
         name: 'Gaziemir',
       },
+      {
+        '@type': 'AdministrativeArea',
+        name: 'Karşıyaka',
+      },
+      {
+        '@type': 'AdministrativeArea',
+        name: 'Alsancak',
+      },
+      {
+        '@type': 'AdministrativeArea',
+        name: 'Bayraklı',
+      },
+      {
+        '@type': 'AdministrativeArea',
+        name: 'Balçova',
+      },
+      {
+        '@type': 'AdministrativeArea',
+        name: 'Narlıdere',
+      },
+      {
+        '@type': 'AdministrativeArea',
+        name: 'Çiğli',
+      },
     ],
     openingHoursSpecification: [
       {
@@ -346,6 +370,56 @@ export default function JsonLd({ locale }: JsonLdProps) {
           text: isTr
             ? 'Buca\'da jinekolog randevusu almak için 0532 237 04 78 numaralı telefondan veya WhatsApp üzerinden iletişime geçebilirsiniz.'
             : 'To get a gynecologist appointment in Buca, you can contact via phone number 0532 237 04 78 or WhatsApp.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isTr ? 'İzmir\'de en iyi jinekolog kimdir?' : 'Who is the best gynecologist in Izmir?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isTr
+            ? 'Op. Dr. Fahri Temiz, İzmir\'de 25 yılı aşkın deneyime sahip, kadın hastalıkları ve doğum alanında uzmanlaşmış bir hekimdir. Buca, Konak, Karabağlar, Gaziemir ve Bornova\'dan hastalar tarafından tercih edilmektedir.'
+            : 'Op. Dr. Fahri Temiz is a specialist with over 25 years of experience in obstetrics and gynecology in Izmir. He is preferred by patients from Buca, Konak, Karabaglar, Gaziemir, and Bornova.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isTr ? 'İzmir Buca\'da normal doğum yapan doktor var mı?' : 'Is there a doctor for normal delivery in Izmir Buca?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isTr
+            ? 'Evet, Op. Dr. Fahri Temiz İzmir Buca\'da hem normal doğum hem de sezaryen operasyonları gerçekleştirmektedir. Deneyimli ekibiyle güvenli doğum hizmeti sunulmaktadır.'
+            : 'Yes, Op. Dr. Fahri Temiz performs both normal delivery and cesarean section operations in Izmir Buca. Safe delivery service is provided with an experienced team.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isTr ? 'Buca\'da 4D ultrason nerede çekilir?' : 'Where can I get 4D ultrasound in Buca?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isTr
+            ? 'İzmir Buca\'da Op. Dr. Fahri Temiz muayenehanesinde modern 4D ultrason cihazları ile detaylı ultrason hizmeti sunulmaktadır. Detaylı anomali taraması ve fetal görüntüleme yapılmaktadır.'
+            : 'Detailed ultrasound service is provided with modern 4D ultrasound devices at Op. Dr. Fahri Temiz clinic in Izmir Buca. Detailed anomaly screening and fetal imaging are performed.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isTr ? 'İzmir Buca\'da genital estetik yapan yer var mı?' : 'Is there genital aesthetics in Izmir Buca?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isTr
+            ? 'Evet, Op. Dr. Fahri Temiz İzmir Buca\'da labioplasti, vajinal estetik ve genital bölge estetik işlemleri uygulamaktadır. Modern tekniklerle güvenli ve estetik sonuçlar elde edilmektedir.'
+            : 'Yes, Op. Dr. Fahri Temiz performs labiaplasty, vaginal aesthetics and genital area aesthetic procedures in Izmir Buca. Safe and aesthetic results are obtained with modern techniques.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isTr ? 'Buca\'da idrar kaçırma tedavisi yapılıyor mu?' : 'Is urinary incontinence treatment available in Buca?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isTr
+            ? 'Evet, Op. Dr. Fahri Temiz İzmir Buca\'da ürojinekoloji alanında idrar kaçırma tedavisi, pelvik taban rehabilitasyonu ve mesane sarkması tedavisi sunmaktadır.'
+            : 'Yes, Op. Dr. Fahri Temiz offers urinary incontinence treatment, pelvic floor rehabilitation, and bladder prolapse treatment in the field of urogynecology in Izmir Buca.',
         },
       },
     ],
