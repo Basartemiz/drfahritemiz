@@ -53,7 +53,7 @@ export default function AboutPageClient() {
                     <Award className="w-6 h-6 text-primary-500" />
                   </div>
                   <div>
-                    <p className="text-2xl font-bold text-gray-900">15+</p>
+                    <p className="text-2xl font-bold text-gray-900">25+</p>
                     <p className="text-gray-600 text-sm">Yıllık Deneyim</p>
                   </div>
                 </div>

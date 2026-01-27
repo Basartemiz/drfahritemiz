@@ -60,7 +60,7 @@ export default function TestimonialsPage() {
               </div>
             </div>
             <div className="text-center">
-              <p className="text-4xl font-bold text-primary-500">15+</p>
+              <p className="text-4xl font-bold text-primary-500">25+</p>
               <p className="text-gray-600">Yıl Deneyim</p>
             </div>
           </div>

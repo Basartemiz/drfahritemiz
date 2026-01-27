@@ -16,8 +16,8 @@ export async function generateMetadata({
       ? 'Hakkımızda | Op. Dr. Fahri Temiz - İzmir Buca Kadın Doğum Uzmanı'
       : 'About Us | Op. Dr. Fahri Temiz - Gynecologist in Izmir Buca',
     description: isTr
-      ? 'Op. Dr. Fahri Temiz hakkında. İzmir Buca\'da 15 yılı aşkın deneyime sahip kadın hastalıkları ve doğum uzmanı. Buca, Konak, Karabağlar, Gaziemir ve Bornova\'da hizmet.'
-      : 'About Op. Dr. Fahri Temiz. Obstetrician and gynecologist with over 15 years of experience in Izmir Buca. Serving patients from Buca, Konak, Karabaglar, Gaziemir, and Bornova.',
+      ? 'Op. Dr. Fahri Temiz hakkında. İzmir Buca\'da 25 yılı aşkın deneyime sahip kadın hastalıkları ve doğum uzmanı. Buca, Konak, Karabağlar, Gaziemir ve Bornova\'da hizmet.'
+      : 'About Op. Dr. Fahri Temiz. Obstetrician and gynecologist with over 25 years of experience in Izmir Buca. Serving patients from Buca, Konak, Karabaglar, Gaziemir, and Bornova.',
     keywords: isTr
       ? [
           'Op. Dr. Fahri Temiz',

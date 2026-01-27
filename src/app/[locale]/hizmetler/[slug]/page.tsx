@@ -10,7 +10,6 @@ import {
   Sparkles,
   HeartHandshake,
   Flower2,
-  Zap,
   Shield,
   CircleDot,
   Layers,
@@ -19,6 +18,7 @@ import {
   ArrowRight,
   Phone,
   MessageCircle,
+  AlertCircle,
 } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { getServiceContent, getServiceData, getAllServiceSlugs } from '@/lib/services-data';
@@ -35,10 +35,10 @@ const iconMap: Record<string, React.ElementType> = {
   Sparkles,
   HeartHandshake,
   Flower2,
-  Zap,
   Shield,
   CircleDot,
   Layers,
+  AlertCircle,
 };
 
 export async function generateStaticParams() {

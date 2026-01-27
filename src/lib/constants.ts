@@ -67,10 +67,10 @@ export const SERVICES = [
     descKey: 'services.menopause.desc',
   },
   {
-    id: 'jinekolojik-lazer',
-    icon: 'Zap',
-    titleKey: 'services.laser.title',
-    descKey: 'services.laser.desc',
+    id: 'kurtaj',
+    icon: 'AlertCircle',
+    titleKey: 'services.kurtaj.title',
+    descKey: 'services.kurtaj.desc',
   },
   {
     id: 'rahim-hastaliklari',

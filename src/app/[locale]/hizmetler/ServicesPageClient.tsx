@@ -11,7 +11,6 @@ import {
   Sparkles,
   HeartHandshake,
   Flower2,
-  Zap,
   Shield,
   CircleDot,
   Layers,
@@ -30,7 +29,6 @@ const iconMap: Record<string, React.ElementType> = {
   Sparkles,
   HeartHandshake,
   Flower2,
-  Zap,
   Shield,
   CircleDot,
   Layers,
@@ -85,12 +83,6 @@ const services = [
     slug: 'menopoz',
     icon: 'Flower2',
     colorClass: 'bg-violet-500',
-  },
-  {
-    id: 'laser',
-    slug: 'jinekolojik-lazer',
-    icon: 'Zap',
-    colorClass: 'bg-orange-500',
   },
   {
     id: 'uterine',
