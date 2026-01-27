@@ -63,11 +63,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     icon: 'Flower2',
     colorClass: 'bg-violet-500',
   },
-  'jinekolojik-lazer': {
-    id: 'jinekolojik-lazer',
-    icon: 'Zap',
-    colorClass: 'bg-orange-500',
-  },
   'rahim-hastaliklari': {
     id: 'rahim-hastaliklari',
     icon: 'Shield',
@@ -239,6 +234,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
       subtitle: '3D/4D Ultrason ile Bebeğinizi Görüntüleyin',
       description: 'En son teknoloji ultrason cihazları ile bebeğinizin detaylı görüntülenmesi ve anomali taraması.',
       longDescription: [
+        'Detaylı ultrason (ayrıntılı ultrason), gebeliğin 19-23. haftaları arasında yapılan kapsamlı bir ultrason muayenesidir. Bu incelemede bebeğin anatomik yapıları değerlendirilir, olası doğumsal anomaliler, anneye ait risk faktörleri ve erken doğum riski incelenir. Mevcut anomalilerin yaklaşık %70-80\'i saptanabilir.',
         'Detaylı ultrason, gebelik sürecinde bebeğin sağlıklı gelişimini değerlendirmek için kullanılan ileri görüntüleme yöntemidir. 3D ve 4D ultrason teknolojisi ile bebeğin yüz hatları, el ve ayak parmakları bile net olarak görüntülenebilir.',
         'Anomali taraması olarak da bilinen detaylı ultrason, genellikle 18-22. gebelik haftaları arasında yapılır. Bu tarama sırasında bebeğin tüm organları, iskelet sistemi, beyin yapıları ve iç organları tek tek incelenir.',
         'Ultrason muayenesi tamamen ağrısız ve güvenli bir işlemdir. Herhangi bir radyasyon içermez ve bebeğe zarar vermez. Ses dalgaları kullanılarak görüntü elde edilir.',
@@ -301,6 +297,10 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           question: 'Bebek cinsiyeti ne zaman belli olur?',
           answer: 'Genellikle 16. haftadan itibaren cinsiyet tayini yapılabilir. Ancak en net sonuç 18-20. haftalarda elde edilir.',
         },
+        {
+          question: 'Detaylı ultrasonu kim yapar?',
+          answer: 'Detaylı ultrason, perinatoloji uzmanı veya bu konuda deneyimli kadın doğum uzmanları tarafından yapılır. Muayeneyi yapan hekimin bebeğin anatomik gelişimini iyi bilmesi, normal ve anormal varyasyonları ayırt edebilmesi gerekir.',
+        },
       ],
       relatedServices: ['gebelik-takibi', 'dogum', 'kisirlik-tedavisi'],
     },
@@ -309,6 +309,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
       subtitle: 'View Your Baby with 3D/4D Ultrasound',
       description: 'Detailed imaging of your baby and anomaly screening with the latest ultrasound technology.',
       longDescription: [
+        'Detailed ultrasound is a comprehensive ultrasound examination performed between 19-23 weeks of pregnancy. This examination evaluates the baby\'s anatomical structures, possible congenital anomalies, maternal risk factors, and preterm birth risk. Approximately 70-80% of existing anomalies can be detected.',
         'Detailed ultrasound is an advanced imaging method used to evaluate the healthy development of the baby during pregnancy. With 3D and 4D ultrasound technology, even the babys facial features, fingers and toes can be clearly visualized.',
         'Detailed ultrasound, also known as anomaly screening, is usually performed between 18-22 weeks of pregnancy. During this screening, all organs, skeletal system, brain structures, and internal organs of the baby are examined one by one.',
         'Ultrasound examination is a completely painless and safe procedure. It does not contain any radiation and does not harm the baby. Images are obtained using sound waves.',
@@ -370,6 +371,10 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
         {
           question: 'When can baby gender be determined?',
           answer: 'Gender can usually be determined from the 16th week. However, the clearest result is obtained at 18-20 weeks.',
+        },
+        {
+          question: 'Who performs detailed ultrasound?',
+          answer: 'Detailed ultrasound is performed by perinatology specialists or experienced obstetricians. The physician performing the examination must have good knowledge of fetal anatomical development and be able to distinguish normal and abnormal variations.',
         },
       ],
       relatedServices: ['gebelik-takibi', 'dogum', 'kisirlik-tedavisi'],
@@ -728,7 +733,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           answer: 'Minimal invaziv ameliyatlar sonrası genellikle 1-2 hafta içinde normal aktivitelere dönülebilir.',
         },
       ],
-      relatedServices: ['pelvik-taban', 'jinekolojik-lazer', 'menopoz'],
+      relatedServices: ['pelvik-taban', 'kurtaj', 'menopoz'],
     },
     en: {
       title: 'Urogynecology',
@@ -798,7 +803,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           answer: 'After minimally invasive surgeries, normal activities can usually be resumed within 1-2 weeks.',
         },
       ],
-      relatedServices: ['pelvik-taban', 'jinekolojik-lazer', 'menopoz'],
+      relatedServices: ['pelvik-taban', 'kurtaj', 'menopoz'],
     },
   },
   'genital-estetik': {
@@ -870,7 +875,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           answer: 'Doğru uygulanan işlemler cinsel hazzı olumsuz etkilemez, aksine bazı hastalarda artış bildirilmektedir.',
         },
       ],
-      relatedServices: ['jinekolojik-lazer', 'urojinekoloji', 'pelvik-taban'],
+      relatedServices: ['kurtaj', 'urojinekoloji', 'pelvik-taban'],
     },
     en: {
       title: 'Genital Aesthetics',
@@ -940,7 +945,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           answer: 'Properly performed procedures do not negatively affect sexual pleasure; on the contrary, some patients report an increase.',
         },
       ],
-      relatedServices: ['jinekolojik-lazer', 'urojinekoloji', 'pelvik-taban'],
+      relatedServices: ['kurtaj', 'urojinekoloji', 'pelvik-taban'],
     },
   },
   'kisirlik-tedavisi': {
@@ -1154,7 +1159,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           answer: 'Hafif giysiler, soğuk içecekler, stres yönetimi, düzenli egzersiz ve gerekirse ilaç tedavisi yardımcı olabilir.',
         },
       ],
-      relatedServices: ['jinekoloji', 'urojinekoloji', 'jinekolojik-lazer'],
+      relatedServices: ['jinekoloji', 'urojinekoloji', 'pelvik-taban'],
     },
     en: {
       title: 'Menopause',
@@ -1224,149 +1229,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           answer: 'Light clothing, cold drinks, stress management, regular exercise, and medication if necessary can help.',
         },
       ],
-      relatedServices: ['jinekoloji', 'urojinekoloji', 'jinekolojik-lazer'],
-    },
-  },
-  'jinekolojik-lazer': {
-    tr: {
-      title: 'Jinekolojik Lazer',
-      subtitle: 'Vajinal Gençleştirme ve Tedavi',
-      description: 'Lazer teknolojisi ile vajinal gevşeme, kuruluk ve idrar kaçırma tedavisi.',
-      longDescription: [
-        'Jinekolojik lazer tedavisi, vajinal dokunun yenilenmesini sağlayan minimal invaziv bir yöntemdir. CO2 veya Er:YAG lazer teknolojisi kullanılarak vajinal mukozanın rejenerasyonu stimüle edilir.',
-        'Bu tedavi özellikle menopoz sonrası vajinal atrofi, doğum sonrası vajinal gevşeme, hafif-orta düzey stres tipi idrar kaçırma ve vajinal kuruluk şikayetlerinde etkilidir.',
-        'Lazer tedavisi, kollajen üretimini artırarak vajinal duvarların elastikiyetini ve tonusunu iyileştirir. Ayrıca vajinal nem seviyesini artırır ve mukozayı kalınlaştırır.',
-        'İşlem ofis ortamında, anestezi gerektirmeden uygulanabilir. Genellikle 3-4 seans şeklinde planlanır ve her seans yaklaşık 15-20 dakika sürer.',
-      ],
-      benefits: [
-        'Vajinal sıkılaştırma',
-        'Vajinal kuruluk tedavisi',
-        'Hafif idrar kaçırma tedavisi',
-        'Vajinal atrofi tedavisi',
-        'Cinsel yaşam kalitesini artırma',
-        'Ameliyatsız tedavi',
-        'Kısa işlem süresi',
-        'Hızlı iyileşme',
-      ],
-      procedures: [
-        {
-          title: 'Değerlendirme Muayenesi',
-          description: 'Şikayetlerin değerlendirilmesi ve tedaviye uygunluk kontrolü.',
-        },
-        {
-          title: 'Lazer Uygulaması',
-          description: 'Vajinal kanala lazer probu ile tedavi uygulanması.',
-        },
-        {
-          title: 'Vulvar Lazer',
-          description: 'Dış genital bölgeye lazer uygulaması (gerekirse).',
-        },
-        {
-          title: 'Kombine Tedavi',
-          description: 'Lazer ile birlikte PRP veya diğer tedavilerin kombinasyonu.',
-        },
-        {
-          title: 'İdame Tedavisi',
-          description: 'Yıllık bakım seansları ile sonuçların korunması.',
-        },
-        {
-          title: 'Kontrol Muayenesi',
-          description: 'Tedavi sonrası sonuçların değerlendirilmesi.',
-        },
-      ],
-      faq: [
-        {
-          question: 'Lazer tedavisi ağrılı mı?',
-          answer: 'Genellikle ağrısız veya çok hafif rahatsızlık hissedilen bir işlemdir. Anestezi gerekmez.',
-        },
-        {
-          question: 'Kaç seans gerekir?',
-          answer: 'Genellikle 4-6 hafta arayla 3 seans önerilir. Şikayetin derecesine göre değişebilir.',
-        },
-        {
-          question: 'Sonuçlar ne zaman görülür?',
-          answer: 'İlk seanstan sonra iyileşme başlar. Tam sonuç tedavi tamamlandıktan 1-2 ay sonra görülür.',
-        },
-        {
-          question: 'Yan etkileri nelerdir?',
-          answer: 'Geçici hafif akıntı veya rahatsızlık olabilir. Ciddi yan etki nadirdir.',
-        },
-        {
-          question: 'Tedavi kalıcı mı?',
-          answer: 'Sonuçlar uzun sürelidir ancak yaşlanma devam ettiği için yıllık bakım seansları önerilir.',
-        },
-      ],
-      relatedServices: ['genital-estetik', 'urojinekoloji', 'menopoz'],
-    },
-    en: {
-      title: 'Gynecological Laser',
-      subtitle: 'Vaginal Rejuvenation and Treatment',
-      description: 'Treatment of vaginal laxity, dryness, and urinary incontinence with laser technology.',
-      longDescription: [
-        'Gynecological laser treatment is a minimally invasive method that provides vaginal tissue renewal. Regeneration of the vaginal mucosa is stimulated using CO2 or Er:YAG laser technology.',
-        'This treatment is particularly effective for post-menopausal vaginal atrophy, post-partum vaginal laxity, mild-moderate stress urinary incontinence, and vaginal dryness complaints.',
-        'Laser treatment improves the elasticity and tone of vaginal walls by increasing collagen production. It also increases vaginal moisture levels and thickens the mucosa.',
-        'The procedure can be performed in an office setting without anesthesia. It is usually planned as 3-4 sessions, and each session takes approximately 15-20 minutes.',
-      ],
-      benefits: [
-        'Vaginal tightening',
-        'Vaginal dryness treatment',
-        'Mild urinary incontinence treatment',
-        'Vaginal atrophy treatment',
-        'Improving quality of sexual life',
-        'Non-surgical treatment',
-        'Short procedure time',
-        'Quick recovery',
-      ],
-      procedures: [
-        {
-          title: 'Evaluation Examination',
-          description: 'Evaluation of complaints and suitability check for treatment.',
-        },
-        {
-          title: 'Laser Application',
-          description: 'Treatment application to the vaginal canal with laser probe.',
-        },
-        {
-          title: 'Vulvar Laser',
-          description: 'Laser application to the external genital area (if necessary).',
-        },
-        {
-          title: 'Combined Treatment',
-          description: 'Combination of laser with PRP or other treatments.',
-        },
-        {
-          title: 'Maintenance Treatment',
-          description: 'Preserving results with annual maintenance sessions.',
-        },
-        {
-          title: 'Follow-up Examination',
-          description: 'Evaluation of results after treatment.',
-        },
-      ],
-      faq: [
-        {
-          question: 'Is laser treatment painful?',
-          answer: 'It is usually a painless or very mildly uncomfortable procedure. Anesthesia is not required.',
-        },
-        {
-          question: 'How many sessions are needed?',
-          answer: '3 sessions at 4-6 week intervals are usually recommended. May vary depending on the severity of the complaint.',
-        },
-        {
-          question: 'When will results be seen?',
-          answer: 'Improvement begins after the first session. Full results are seen 1-2 months after treatment is completed.',
-        },
-        {
-          question: 'What are the side effects?',
-          answer: 'Temporary mild discharge or discomfort may occur. Serious side effects are rare.',
-        },
-        {
-          question: 'Is the treatment permanent?',
-          answer: 'Results are long-lasting, but annual maintenance sessions are recommended as aging continues.',
-        },
-      ],
-      relatedServices: ['genital-estetik', 'urojinekoloji', 'menopoz'],
+      relatedServices: ['jinekoloji', 'urojinekoloji', 'pelvik-taban'],
     },
   },
   'rahim-hastaliklari': {
@@ -1722,7 +1585,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           answer: 'Evet, iyileşme sürecinden sonra (genellikle 6-8 hafta) cinsel ilişki mümkündür.',
         },
       ],
-      relatedServices: ['urojinekoloji', 'jinekolojik-lazer', 'jinekoloji'],
+      relatedServices: ['urojinekoloji', 'genital-estetik', 'jinekoloji'],
     },
     en: {
       title: 'Pelvic Floor Disorders',
@@ -1792,7 +1655,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           answer: 'Yes, sexual intercourse is possible after the healing process (usually 6-8 weeks).',
         },
       ],
-      relatedServices: ['urojinekoloji', 'jinekolojik-lazer', 'jinekoloji'],
+      relatedServices: ['urojinekoloji', 'genital-estetik', 'jinekoloji'],
     },
   },
   'kurtaj': {

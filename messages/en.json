@@ -101,10 +101,6 @@
       "title": "Menopause",
       "desc": "Management of menopause symptoms"
     },
-    "laser": {
-      "title": "Gynecological Laser",
-      "desc": "Vaginal laxity and atrophy treatment"
-    },
     "uterine": {
       "title": "Uterine Diseases",
       "desc": "Treatment of fibroids, polyps, and endometriosis"
@@ -190,5 +186,18 @@
   },
   "whatsapp": {
     "tooltip": "Contact via WhatsApp"
+  },
+  "upcomingTopics": {
+    "title": "Upcoming Topics",
+    "subtitle": "January - Topic Headlines",
+    "topics": {
+      "1": "How to recognize vitamin D deficiency during pregnancy?",
+      "2": "What is NST, when is it done, and in which cases is it necessary?",
+      "3": "What are the routine tests performed during pregnancy follow-up?",
+      "4": "Is there a chance of getting pregnant after tubal ligation surgery?",
+      "5": "Most common symptoms of genital warts",
+      "6": "Folic acid use in PCOS",
+      "7": "Cancer screening recommendations for menopausal women"
+    }
   }
 }
