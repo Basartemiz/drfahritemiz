@@ -181,9 +181,13 @@ export default async function ServiceDetailPage({
                 </h2>
                 <div className="prose prose-lg max-w-none">
                   {content.longDescription.map((paragraph, index) => (
-                    <p key={index} className="text-gray-600 leading-relaxed mb-4">
-                      {paragraph}
-                    </p>
+                    <p
+                      key={index}
+                      className="text-gray-600 leading-relaxed mb-4"
+                      dangerouslySetInnerHTML={{
+                        __html: paragraph.replace(/\*\*(.*?)\*\*/g, '<strong class="text-gray-900 font-semibold">$1</strong>')
+                      }}
+                    />
                   ))}
                 </div>
               </div>

@@ -79,20 +79,20 @@
     "viewAll": "Tüm Hizmetler",
     "learnMore": "Detaylı Bilgi",
     "kurtaj": {
-      "title": "Kürtaj",
-      "desc": "İzmir'de güvenli ve yasal kürtaj hizmetleri. Yasal süre sınırları içinde, deneyimli kadın doğum uzmanı Op. Dr. Fahri Temiz ile hijyenik koşullarda gebelik sonlandırma işlemleri.",
+      "title": "İzmir'de Kürtaj",
+      "desc": "İzmir'de güvenli ve yasal kürtaj hizmetleri. İzmir'in en deneyimli kadın doğum uzmanı Op. Dr. Fahri Temiz ile yasal süre sınırları içinde, hijyenik koşullarda gebelik sonlandırma işlemleri. İzmir Buca'da güvenilir kürtaj merkezi.",
       "items": {
         "before": {
           "title": "Kürtaj Öncesi Değerlendirme",
-          "desc": "İzmir Buca'da kürtaj öncesi kapsamlı değerlendirme: gebelik haftası belirleme, ultrasonografi, kan testleri ve tıbbi geçmiş analizi. Her hasta için kişiselleştirilmiş tedavi planı oluşturulur."
+          "desc": "İzmir Buca'da kürtaj öncesi kapsamlı değerlendirme: gebelik haftası belirleme, ultrasonografi, kan testleri ve tıbbi geçmiş analizi. İzmir'de uzman ekip tarafından her hasta için kişiselleştirilmiş tedavi planı oluşturulur."
         },
         "method": {
           "title": "Kürtaj Yöntemleri",
-          "desc": "İzmir'de medikal (ilaçlı) ve cerrahi (vakumlu aspirasyon) kürtaj yöntemleri uygulanmaktadır. Gebelik haftasına göre en uygun ve güvenli yöntem belirlenir, hijyenik ortamda işlem gerçekleştirilir."
+          "desc": "İzmir'de medikal (ilaçlı) ve cerrahi (vakumlu aspirasyon) kürtaj yöntemleri uygulanmaktadır. İzmir'deki kliniğimizde gebelik haftasına göre en uygun ve güvenli yöntem belirlenir, hijyenik ortamda işlem gerçekleştirilir."
         },
         "after": {
           "title": "Kürtaj Sonrası Bakım",
-          "desc": "Buca'da kürtaj sonrası kontrol muayeneleri, komplikasyon takibi ve gerektiğinde psikolojik destek sağlanmaktadır. Hasta konforu ve güvenliği önceliğimizdir."
+          "desc": "İzmir Buca'da kürtaj sonrası kontrol muayeneleri, komplikasyon takibi ve gerektiğinde psikolojik destek sağlanmaktadır. İzmir'de hasta konforu ve güvenliği önceliğimizdir."
         },
         "legal": {
           "title": "Yasal Süreler ve Haklar",
@@ -100,7 +100,7 @@
         },
         "counseling": {
           "title": "Danışmanlık Hizmetleri",
-          "desc": "İzmir'den gelen hastalara ücretsiz danışmanlık hizmeti verilmektedir. Karar sürecinde profesyonel destek ve bilgilendirme sağlanır."
+          "desc": "İzmir ve çevre ilçelerden gelen hastalara ücretsiz danışmanlık hizmeti verilmektedir. İzmir'de karar sürecinde profesyonel destek ve bilgilendirme sağlanır."
         }
       }
     },
@@ -109,8 +109,8 @@
       "desc": "İzmir'de kapsamlı gebelik takibi ve hamilelik kontrolü. 25 yıllık deneyimli kadın doğum uzmanı ile düzenli ultrason, NST, tarama testleri ve doğuma hazırlık."
     },
     "ultrasound": {
-      "title": "Detaylı Ultrason",
-      "desc": "İzmir'de 3D/4D ultrason ile detaylı bebek görüntüleme. Fetal anomali taraması, ikili test, üçlü test, detaylı fetal inceleme. Modern ultrason cihazları ile net görüntüler."
+      "title": "İzmir'de Detaylı Ultrason",
+      "desc": "İzmir'de 3D/4D ultrason ile detaylı bebek görüntüleme. İzmir Buca'da modern teknoloji ile fetal anomali taraması, ikili test, üçlü test, detaylı fetal inceleme. En son teknoloji ultrason cihazları ile net ve kaliteli görüntüler."
     },
     "birth": {
       "title": "Doğum",
