@@ -73,7 +73,6 @@ export const metadata: Metadata = {
     'kadın doğum uzmanı izmir',
     'jinekolog buca',
     'en iyi jinekolog izmir',
-    'en iyi kadın doğum uzmanı izmir',
     'buca kadın doğum doktoru',
     'izmir kadın hastalıkları doktoru',
     'buca kadın hastalıkları uzmanı',

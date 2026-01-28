@@ -17,7 +17,7 @@
   "hero": {
     "slide1": {
       "title": "İzmir Buca'da Kadın Doğum Uzmanı",
-      "subtitle": "Kadın hastalıkları ve doğum alanında 25 yıllık deneyim ile uzman jinekolog hizmeti - Buca, Karabağlar, Gaziemir",
+      "subtitle": "Kadın hastalıkları ve doğum alanında 25 yıllık deneyim ile uzman jinekolog hizmeti",
       "cta": "Randevu Al"
     },
     "slide2": {
@@ -49,7 +49,7 @@
     "title": "Hakkımızda",
     "subtitle": "Op. Dr. Fahri Temiz",
     "intro": "Op. Dr. Fahri Temiz, İzmir Buca'da kadın hastalıkları ve doğum alanında uzmanlaşmış, 25 yılı aşkın deneyime sahip bir hekimdir. Buca ve çevre ilçelerden gelen hastalarına modern tıbbın tüm imkânlarını sunarak, güvenilir ve kişiselleştirilmiş sağlık hizmeti vermektedir.",
-    "experience": "İzmir'in en deneyimli kadın doğum uzmanlarından biri olarak, gebelik takibinden jinekolojik cerrahiye, ürojinekolojiden estetik jinekolojiye kadar geniş bir yelpazede hizmet sunmaktadır. Buca, Karabağlar, Gaziemir ve Bornova'dan hastalar muayenehanemizi tercih etmektedir.",
+    "experience": "İzmir'in deneyimli kadın doğum uzmanlarından biri olarak, gebelik takibinden jinekolojik cerrahiye, ürojinekolojiden estetik jinekolojiye kadar geniş bir yelpazede hizmet sunmaktadır.",
     "philosophy": "Felsefemiz, her kadının sağlık ihtiyaçlarının benzersiz olduğunu kabul etmek ve tedaviyi buna göre şekillendirmektir.",
     "readMore": "Daha Fazla Bilgi",
     "certifications": "Sertifikalar ve Üyelikler",
@@ -62,7 +62,7 @@
       "q3": "Gebelik takibi İzmir'de nerede yapılır?",
       "a3": "İzmir Buca'da Op. Dr. Fahri Temiz muayenehanesinde kapsamlı gebelik takibi yapılmaktadır. Modern ultrason cihazları ve deneyimli ekip ile güvenli gebelik takibi hizmeti sunulmaktadır.",
       "q4": "Buca'da en iyi jinekolog kimdir?",
-      "a4": "Op. Dr. Fahri Temiz, 25 yılı aşkın deneyime sahip, İzmir Buca'da en çok tercih edilen jinekolog ve kadın doğum uzmanlarından biridir. Buca, Karabağlar, Gaziemir ve Bornova'dan hastalar tarafından tercih edilmektedir.",
+      "a4": "Op. Dr. Fahri Temiz, 25 yılı aşkın deneyime sahip, İzmir'de en çok tercih edilen jinekolog ve kadın doğum uzmanlarından biridir.",
       "q5": "İzmir Buca'da 4D ultrason nerede çekilir?",
       "a5": "Op. Dr. Fahri Temiz muayenehanesinde modern 4D ultrason cihazları ile detaylı ultrason hizmeti sunulmaktadır. Detaylı anomali taraması ve fetal görüntüleme yapılmaktadır.",
       "q6": "Buca'da normal doğum yapan doktor var mı?",
@@ -80,7 +80,7 @@
     "learnMore": "Detaylı Bilgi",
     "kurtaj": {
       "title": "Kürtaj",
-      "desc": "İzmir Buca'da güvenli ve yasal kürtaj hizmetleri. Yasal süre sınırları içinde, deneyimli kadın doğum uzmanı Op. Dr. Fahri Temiz ile hijyenik koşullarda gebelik sonlandırma işlemleri. İzmir, Karabağlar, Bornova ve çevre ilçelerden hastalarımıza hizmet veriyoruz.",
+      "desc": "İzmir'de güvenli ve yasal kürtaj hizmetleri. Yasal süre sınırları içinde, deneyimli kadın doğum uzmanı Op. Dr. Fahri Temiz ile hijyenik koşullarda gebelik sonlandırma işlemleri.",
       "items": {
         "before": {
           "title": "Kürtaj Öncesi Değerlendirme",
@@ -100,53 +100,53 @@
         },
         "counseling": {
           "title": "Danışmanlık Hizmetleri",
-          "desc": "Karabağlar, Bornova ve çevre ilçelerden gelen hastalara ücretsiz danışmanlık hizmeti verilmektedir. Karar sürecinde profesyonel destek ve bilgilendirme sağlanır."
+          "desc": "İzmir'den gelen hastalara ücretsiz danışmanlık hizmeti verilmektedir. Karar sürecinde profesyonel destek ve bilgilendirme sağlanır."
         }
       }
     },
     "pregnancy": {
       "title": "Gebelik Takibi",
-      "desc": "İzmir Buca'da kapsamlı gebelik takibi ve hamilelik kontrolü. 25 yıllık deneyimli kadın doğum uzmanı ile düzenli ultrason, NST, tarama testleri ve doğuma hazırlık. Karabağlar, Gaziemir, Bornova'dan hamile hastalarımız."
+      "desc": "İzmir'de kapsamlı gebelik takibi ve hamilelik kontrolü. 25 yıllık deneyimli kadın doğum uzmanı ile düzenli ultrason, NST, tarama testleri ve doğuma hazırlık."
     },
     "ultrasound": {
       "title": "Detaylı Ultrason",
-      "desc": "İzmir Buca'da 3D/4D ultrason ile detaylı bebek görüntüleme. Fetal anomali taraması, ikili test, üçlü test, detaylı fetal inceleme. Modern ultrason cihazları ile net görüntüler. Bornova, Karabağlar'dan hasta kabul ediyoruz."
+      "desc": "İzmir'de 3D/4D ultrason ile detaylı bebek görüntüleme. Fetal anomali taraması, ikili test, üçlü test, detaylı fetal inceleme. Modern ultrason cihazları ile net görüntüler."
     },
     "birth": {
       "title": "Doğum",
-      "desc": "İzmir Buca'da normal doğum ve sezaryen operasyonları. Deneyimli kadın doğum uzmanı Op. Dr. Fahri Temiz eşliğinde güvenli doğum. Epidural anestezi ile ağrısız doğum seçeneği. Buca, Gaziemir'den doğum için tercih edilen klinik."
+      "desc": "İzmir'de normal doğum ve sezaryen operasyonları. Deneyimli kadın doğum uzmanı Op. Dr. Fahri Temiz eşliğinde güvenli doğum. Epidural anestezi ile ağrısız doğum seçeneği."
     },
     "gynecology": {
       "title": "Jinekoloji",
-      "desc": "İzmir Buca'da kapsamlı jinekolojik muayene ve kadın hastalıkları tedavisi. Smear testi, HPV taraması, kolposkopi, pelvik ultrason. Rahim ağzı kanseri taraması. Karabağlar, Bornova'dan jinekoloji hastaları kabul ediyoruz."
+      "desc": "İzmir'de kapsamlı jinekolojik muayene ve kadın hastalıkları tedavisi. Smear testi, HPV taraması, kolposkopi, pelvik ultrason. Rahim ağzı kanseri taraması."
     },
     "urogynecology": {
       "title": "Ürojinekoloji",
-      "desc": "İzmir Buca'da ürojinekoloji ve idrar kaçırma tedavisi. Stres inkontinans, urge inkontinans, pelvik taban rehabilitasyonu. Mesane sarkması tedavisi. Minimal invaziv cerrahi ile kalıcı çözümler. Gaziemir, Bornova, Karabağlar'dan hasta kabulü."
+      "desc": "İzmir'de ürojinekoloji ve idrar kaçırma tedavisi. Stres inkontinans, urge inkontinans, pelvik taban rehabilitasyonu. Mesane sarkması tedavisi. Minimal invaziv cerrahi ile kalıcı çözümler."
     },
     "genitalAesthetics": {
       "title": "Genital Estetik",
-      "desc": "İzmir Buca'da genital estetik ve labioplasti. Vajinal estetik, labioplasti, vajinal gençleştirme lazer uygulamaları. Deneyimli jinekolog Op. Dr. Fahri Temiz ile güvenli ve estetik sonuçlar. Alsancak, Karşıyaka'dan hasta kabulü."
+      "desc": "İzmir'de genital estetik ve labioplasti. Vajinal estetik, labioplasti işlemleri. Deneyimli jinekolog Op. Dr. Fahri Temiz ile güvenli ve estetik sonuçlar."
     },
     "infertility": {
       "title": "Kısırlık Tedavisi",
-      "desc": "İzmir Buca'da infertilite değerlendirmesi ve kısırlık tedavisi. Tüp bebek öncesi değerlendirme, ovülasyon takibi, hormonal tedaviler. 25 yıllık deneyim. Bornova, Karabağlar'dan infertilite hastaları için uzman kadro."
+      "desc": "İzmir'de infertilite değerlendirmesi ve kısırlık tedavisi. Tüp bebek öncesi değerlendirme, ovülasyon takibi, hormonal tedaviler. 25 yıllık deneyim."
     },
     "menopause": {
       "title": "Menopoz",
-      "desc": "İzmir Buca'da menopoz tedavisi ve klimakterium dönemi yönetimi. Hormon replasman tedavisi, kemik erimesi takibi, menopoz semptomları tedavisi. Deneyimli kadın doğum uzmanı ile güvenli tedavi. Gaziemir, Bornova'dan hasta kabulü."
+      "desc": "İzmir'de menopoz tedavisi ve klimakterium dönemi yönetimi. Hormon replasman tedavisi, kemik erimesi takibi, menopoz semptomları tedavisi. Deneyimli kadın doğum uzmanı ile güvenli tedavi."
     },
     "uterine": {
       "title": "Rahim Hastalıkları",
-      "desc": "İzmir Buca'da miyom tedavisi, rahim polipi ve endometriozis cerrahisi. Rahim kanamaları, ağrılı adet tedavisi. Laparoskopik ve histeroskopik cerrahi. Modern teknoloji ile minimal invaziv tedavi. Karabağlar'dan hasta kabulü."
+      "desc": "İzmir'de miyom tedavisi, rahim polipi ve endometriozis cerrahisi. Rahim kanamaları, ağrılı adet tedavisi. Laparoskopik ve histeroskopik cerrahi. Modern teknoloji ile minimal invaziv tedavi."
     },
     "ovarian": {
       "title": "Over Hastalıkları",
-      "desc": "İzmir Buca'da yumurtalık kisti tedavisi ve PKOS (polikistik over sendromu) yönetimi. Over kanseri taraması, laparoskopik cerrahi. Hormonal tedaviler ve yaşam tarzı değişiklikleri. Bornova, Gaziemir'den hasta kabulü."
+      "desc": "İzmir'de yumurtalık kisti tedavisi ve PKOS (polikistik over sendromu) yönetimi. Over kanseri taraması, laparoskopik cerrahi. Hormonal tedaviler ve yaşam tarzı değişiklikleri."
     },
     "pelvic": {
       "title": "Pelvik Taban",
-      "desc": "İzmir Buca'da pelvik organ sarkması tedavisi. Rahim sarkması, mesane sarkması, rektum sarkması. Pelvik taban güçlendirme, pesser uygulaması, cerrahi tedavi. Minimal invaziv yöntemler. Karabağlar'dan hasta kabul ediyoruz."
+      "desc": "İzmir'de pelvik organ sarkması tedavisi. Rahim sarkması, mesane sarkması, rektum sarkması. Pelvik taban güçlendirme, pesser uygulaması, cerrahi tedavi. Minimal invaziv yöntemler."
     }
   },
   "testimonials": {
@@ -159,7 +159,7 @@
       "text": "Karabağlar'dan geliyorum, çok profesyonel ve ilgili bir jinekolog. Her soruma sabırla cevap verdi. Gebelik takibim çok rahat geçti. Kesinlikle tavsiye ederim."
     },
     "3": {
-      "text": "Jinekolojik sorunlarım için Bornova'da pek çok doktora gittim ama hiçbiri bu kadar açıklayıcı ve güven verici olmamıştı. İzmir'in en iyi kadın doğum uzmanı. Teşekkürler Dr. Temiz."
+      "text": "Jinekolojik sorunlarım için pek çok doktora gittim ama hiçbiri bu kadar açıklayıcı ve güven verici olmamıştı. Teşekkürler Dr. Temiz."
     },
     "4": {
       "text": "İkinci gebeliğimde de kendisini tercih ettim. Gaziemir'den geliyorum ve her zaman ulaşılabilir ve ilgili. Eşim de çok memnun kaldı. Doğum için en iyi tercih!"
@@ -209,7 +209,7 @@
   },
   "cta": {
     "title": "İzmir Buca'da Kadın Doğum Uzmanı Randevusu",
-    "subtitle": "İzmir Buca, Karabağlar, Gaziemir ve Bornova'dan gelen hastalarımız için Op. Dr. Fahri Temiz ile randevu almak çok kolay. WhatsApp üzerinden hemen iletişime geçin.",
+    "subtitle": "İzmir'den gelen hastalarımız için Op. Dr. Fahri Temiz ile randevu almak çok kolay. WhatsApp üzerinden hemen iletişime geçin.",
     "whatsapp": "WhatsApp ile Randevu Al",
     "call": "Hemen Ara"
   },
