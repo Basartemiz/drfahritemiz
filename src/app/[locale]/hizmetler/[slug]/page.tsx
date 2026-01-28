@@ -18,12 +18,48 @@ import {
   Phone,
   MessageCircle,
   AlertCircle,
+  List,
 } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { getServiceContent, getServiceData, getAllServiceSlugs } from '@/lib/services-data';
 import { CONTACT_INFO, SOCIAL_LINKS } from '@/lib/constants';
 import CTASection from '@/components/home/CTASection';
 import ServiceDetailClient from './ServiceDetailClient';
+
+// Helper function to extract heading from paragraph and generate slug
+function extractHeading(paragraph: string): { heading: string; slug: string } | null {
+  const match = paragraph.match(/^\*\*([^*]+)\*\*/);
+  if (match) {
+    const heading = match[1].replace(/:$/, ''); // Remove trailing colon
+    const slug = heading
+      .toLowerCase()
+      .replace(/[ğ]/g, 'g')
+      .replace(/[ü]/g, 'u')
+      .replace(/[ş]/g, 's')
+      .replace(/[ı]/g, 'i')
+      .replace(/[ö]/g, 'o')
+      .replace(/[ç]/g, 'c')
+      .replace(/[İ]/g, 'i')
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .trim();
+    return { heading, slug };
+  }
+  return null;
+}
+
+// Get all headings from content
+function getHeadingsFromContent(paragraphs: string[]): Array<{ heading: string; slug: string; index: number }> {
+  const headings: Array<{ heading: string; slug: string; index: number }> = [];
+  paragraphs.forEach((paragraph, index) => {
+    const extracted = extractHeading(paragraph);
+    if (extracted) {
+      headings.push({ ...extracted, index });
+    }
+  });
+  return headings;
+}
 
 const iconMap: Record<string, React.ElementType> = {
   Baby,
@@ -179,16 +215,50 @@ export default async function ServiceDetailPage({
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
                   {locale === 'tr' ? 'Genel Bilgi' : 'Overview'}
                 </h2>
+
+                {/* Table of Contents - only show if there are headings */}
+                {(() => {
+                  const headings = getHeadingsFromContent(content.longDescription);
+                  if (headings.length > 2) {
+                    return (
+                      <div className="bg-gray-50 rounded-xl p-6 mb-8">
+                        <div className="flex items-center gap-2 mb-4">
+                          <List className="w-5 h-5 text-primary-500" />
+                          <h3 className="font-semibold text-gray-900">
+                            {locale === 'tr' ? 'İçindekiler' : 'Table of Contents'}
+                          </h3>
+                        </div>
+                        <nav className="space-y-2">
+                          {headings.map((item, idx) => (
+                            <a
+                              key={idx}
+                              href={`#${item.slug}`}
+                              className="block text-primary-600 hover:text-primary-800 hover:underline transition-colors text-sm"
+                            >
+                              {item.heading}
+                            </a>
+                          ))}
+                        </nav>
+                      </div>
+                    );
+                  }
+                  return null;
+                })()}
+
                 <div className="prose prose-lg max-w-none">
-                  {content.longDescription.map((paragraph, index) => (
-                    <p
-                      key={index}
-                      className="text-gray-600 leading-relaxed mb-4"
-                      dangerouslySetInnerHTML={{
-                        __html: paragraph.replace(/\*\*(.*?)\*\*/g, '<strong class="text-gray-900 font-semibold">$1</strong>')
-                      }}
-                    />
-                  ))}
+                  {content.longDescription.map((paragraph, index) => {
+                    const headingInfo = extractHeading(paragraph);
+                    return (
+                      <p
+                        key={index}
+                        id={headingInfo?.slug}
+                        className="text-gray-600 leading-relaxed mb-4 scroll-mt-24"
+                        dangerouslySetInnerHTML={{
+                          __html: paragraph.replace(/\*\*(.*?)\*\*/g, '<strong class="text-gray-900 font-semibold">$1</strong>')
+                        }}
+                      />
+                    );
+                  })}
                 </div>
               </div>
 
