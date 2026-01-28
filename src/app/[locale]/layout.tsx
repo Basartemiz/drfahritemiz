@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: '%s | Op. Dr. Fahri Temiz - İzmir Buca',
   },
   description:
-    'İzmir Buca kadın doğum uzmanı Op. Dr. Fahri Temiz. Gebelik takibi, normal doğum, sezaryen, jinekoloji, ürojinekoloji, genital estetik, labioplasti. Buca\'da jinekolog arıyorsanız hemen randevu alın. ☎ 0532 237 04 78',
+    'İzmir Buca kadın doğum uzmanı Op. Dr. Fahri Temiz. Gebelik takibi, normal doğum, sezaryen, jinekoloji, ürojinekoloji, kürtaj. Buca\'da jinekolog arıyorsanız hemen randevu alın. ☎ 0532 237 04 78',
   keywords: [
     // Location-based keywords
     'izmir kadın doğum uzmanı',
@@ -36,14 +36,14 @@ export const metadata: Metadata = {
     'buca jinekoloji',
     'izmir ürojinekoloji',
     'buca ürojinekoloji',
-    'izmir genital estetik',
-    'buca genital estetik',
-    'izmir vajinal estetik',
-    'buca vajinal estetik',
+    'izmir kürtaj',
+    'buca kürtaj',
+    'izmir gebelik sonlandırma',
+    'buca gebelik sonlandırma',
     'izmir kadın hastalıkları',
     'buca kadın hastalıkları',
-    'izmir labioplasti',
-    'buca labioplasti',
+    'izmir güvenli kürtaj',
+    'buca güvenli kürtaj',
     // Service-based keywords
     'izmir buca gebelik takibi',
     'buca hamilelik takibi',
@@ -108,7 +108,7 @@ export const metadata: Metadata = {
     alternateLocale: 'en_US',
     siteName: 'Op. Dr. Fahri Temiz',
     title: 'Op. Dr. Fahri Temiz | İzmir Buca Kadın Hastalıkları ve Doğum Uzmanı',
-    description: 'İzmir Buca\'da kadın doğum uzmanı. Gebelik takibi, doğum, jinekoloji, ürojinekoloji, genital estetik. Yiğitler Mah. Fevzi Çakmak Cad. No:2 Buca/İzmir',
+    description: 'İzmir Buca\'da kadın doğum uzmanı. Gebelik takibi, doğum, jinekoloji, ürojinekoloji, kürtaj. Yiğitler Mah. Fevzi Çakmak Cad. No:2 Buca/İzmir',
     url: baseUrl,
     images: [
       {

@@ -49,10 +49,10 @@ export const SERVICES = [
     descKey: 'services.urogynecology.desc',
   },
   {
-    id: 'genital-estetik',
-    icon: 'Sparkles',
-    titleKey: 'services.genitalAesthetics.title',
-    descKey: 'services.genitalAesthetics.desc',
+    id: 'kurtaj',
+    icon: 'AlertCircle',
+    titleKey: 'services.kurtaj.title',
+    descKey: 'services.kurtaj.desc',
   },
   {
     id: 'kisirlik-tedavisi',

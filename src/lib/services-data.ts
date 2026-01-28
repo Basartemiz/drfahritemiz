@@ -48,11 +48,6 @@ export const servicesData: Record<string, ServiceDetail> = {
     icon: 'Activity',
     colorClass: 'bg-green-500',
   },
-  'genital-estetik': {
-    id: 'genital-estetik',
-    icon: 'Sparkles',
-    colorClass: 'bg-amber-500',
-  },
   'kisirlik-tedavisi': {
     id: 'kisirlik-tedavisi',
     icon: 'HeartHandshake',
@@ -806,136 +801,6 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
       relatedServices: ['pelvik-taban', 'kurtaj', 'menopoz'],
     },
   },
-  'genital-estetik': {
-    tr: {
-      title: 'Genital Estetik',
-      subtitle: 'Labioplasti ve Vajinal Estetik İşlemler',
-      description: 'Genital bölge estetik operasyonları ile kendinizi daha iyi hissedin.',
-      longDescription: [
-        'Genital estetik, kadınların genital bölgelerindeki estetik kaygıları gidermek ve fonksiyonel problemleri çözmek amacıyla yapılan işlemleri kapsar. Bu işlemler hem estetik hem de tıbbi nedenlerle tercih edilebilir.',
-        'Labioplasti, iç dudakların (labia minora) büyüklüğünü azaltmak veya şekillendirmek için yapılan en yaygın genital estetik işlemdir. Aşırı büyük labialar egzersiz yaparken, bisiklete binerken veya cinsel ilişki sırasında rahatsızlık verebilir.',
-        'Tüm genital estetik işlemler, hasta mahremiyetine en üst düzeyde önem verilerek, steril koşullarda ve deneyimli ekip tarafından gerçekleştirilmektedir.',
-      ],
-      benefits: [
-        'Labioplasti operasyonu',
-        'Vajinal sıkılaştırma',
-        'Klitoral estetik',
-        'G-spot amplifikasyonu',
-        'Hymen onarımı',
-        'Perineoplasti',
-        'Kombine estetik işlemler',
-      ],
-      procedures: [
-        {
-          title: 'Labioplasti',
-          description: 'İç dudakların (labia minora) cerrahi olarak küçültülmesi veya şekillendirilmesi.',
-        },
-        {
-          title: 'Vajinoplasti',
-          description: 'Gevşemiş vajinal kanalın cerrahi olarak daraltılması.',
-        },
-        {
-          title: 'Perineoplasti',
-          description: 'Doğum sonrası zarar görmüş perine bölgesinin onarımı.',
-        },
-        {
-          title: 'Klitoral Estetik',
-          description: 'Klitoris bölgesindeki fazla dokuların düzeltilmesi.',
-        },
-        {
-          title: 'Kombine İşlemler',
-          description: 'Birden fazla estetik işlemin aynı seansta uygulanması.',
-        },
-      ],
-      faq: [
-        {
-          question: 'Labioplasti operasyonu ağrılı mı?',
-          answer: 'İşlem lokal veya genel anestezi altında yapıldığı için operasyon sırasında ağrı hissedilmez. İyileşme sürecinde hafif rahatsızlık olabilir.',
-        },
-        {
-          question: 'İyileşme süreci ne kadar sürer?',
-          answer: 'Genellikle 1-2 hafta içinde normal aktivitelere dönülebilir. Cinsel ilişki için 4-6 hafta beklenmesi önerilir.',
-        },
-        {
-          question: 'İşlemler iz bırakır mı?',
-          answer: 'Modern cerrahi teknikler ile izler minimal düzeydedir ve zamanla neredeyse görünmez hale gelir.',
-        },
-        {
-          question: 'Hangi yaşta bu işlemler yapılabilir?',
-          answer: '18 yaş üstü, gelişimini tamamlamış kadınlarda bu işlemler güvenle uygulanabilir.',
-        },
-        {
-          question: 'İşlemler cinsel hazzı etkiler mi?',
-          answer: 'Doğru uygulanan işlemler cinsel hazzı olumsuz etkilemez, aksine bazı hastalarda artış bildirilmektedir.',
-        },
-      ],
-      relatedServices: ['kurtaj', 'urojinekoloji', 'pelvik-taban'],
-    },
-    en: {
-      title: 'Genital Aesthetics',
-      subtitle: 'Labiaplasty and Vaginal Aesthetic Procedures',
-      description: 'Feel better about yourself with genital area aesthetic operations.',
-      longDescription: [
-        'Genital aesthetics covers procedures performed to address aesthetic concerns and solve functional problems in womens genital areas. These procedures can be preferred for both aesthetic and medical reasons.',
-        'Labiaplasty is the most common genital aesthetic procedure performed to reduce or reshape the size of the inner lips (labia minora). Excessively large labia can cause discomfort during exercise, cycling, or sexual intercourse.',
-        'All genital aesthetic procedures are performed under sterile conditions by an experienced team, with the highest regard for patient privacy.',
-      ],
-      benefits: [
-        'Labiaplasty operation',
-        'Vaginal tightening',
-        'Clitoral aesthetics',
-        'G-spot amplification',
-        'Hymen repair',
-        'Perineoplasty',
-        'Combined aesthetic procedures',
-      ],
-      procedures: [
-        {
-          title: 'Labiaplasty',
-          description: 'Surgical reduction or shaping of the inner lips (labia minora).',
-        },
-        {
-          title: 'Vaginoplasty',
-          description: 'Surgical narrowing of the relaxed vaginal canal.',
-        },
-        {
-          title: 'Perineoplasty',
-          description: 'Repair of the perineal area damaged after childbirth.',
-        },
-        {
-          title: 'Clitoral Aesthetics',
-          description: 'Correction of excess tissue in the clitoral area.',
-        },
-        {
-          title: 'Combined Procedures',
-          description: 'Application of multiple aesthetic procedures in the same session.',
-        },
-      ],
-      faq: [
-        {
-          question: 'Is labiaplasty operation painful?',
-          answer: 'Since the procedure is performed under local or general anesthesia, no pain is felt during the operation. There may be mild discomfort during the healing process.',
-        },
-        {
-          question: 'How long is the recovery period?',
-          answer: 'Normal activities can usually be resumed within 1-2 weeks. Waiting 4-6 weeks for sexual intercourse is recommended.',
-        },
-        {
-          question: 'Do the procedures leave scars?',
-          answer: 'With modern surgical techniques, scars are minimal and become almost invisible over time.',
-        },
-        {
-          question: 'At what age can these procedures be done?',
-          answer: 'These procedures can be safely applied to women over 18 years old who have completed their development.',
-        },
-        {
-          question: 'Do the procedures affect sexual pleasure?',
-          answer: 'Properly performed procedures do not negatively affect sexual pleasure; on the contrary, some patients report an increase.',
-        },
-      ],
-      relatedServices: ['kurtaj', 'urojinekoloji', 'pelvik-taban'],
-    },
-  },
   'kisirlik-tedavisi': {
     tr: {
       title: 'Kısırlık Tedavisi',
@@ -1573,7 +1438,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           answer: 'Evet, iyileşme sürecinden sonra (genellikle 6-8 hafta) cinsel ilişki mümkündür.',
         },
       ],
-      relatedServices: ['urojinekoloji', 'genital-estetik', 'jinekoloji'],
+      relatedServices: ['urojinekoloji', 'kurtaj', 'jinekoloji'],
     },
     en: {
       title: 'Pelvic Floor Disorders',
@@ -1643,7 +1508,7 @@ export const servicesContent: Record<string, { tr: ServiceContent; en: ServiceCo
           answer: 'Yes, sexual intercourse is possible after the healing process (usually 6-8 weeks).',
         },
       ],
-      relatedServices: ['urojinekoloji', 'genital-estetik', 'jinekoloji'],
+      relatedServices: ['urojinekoloji', 'kurtaj', 'jinekoloji'],
     },
   },
   'kurtaj': {

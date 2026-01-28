@@ -16,8 +16,8 @@ export default function JsonLd({ locale }: JsonLdProps) {
     name: 'Op. Dr. Fahri Temiz',
     alternateName: 'Dr. Fahri Temiz',
     description: isTr
-      ? 'İzmir Buca\'da Kadın Hastalıkları ve Doğum Uzmanı. Gebelik takibi, doğum, jinekoloji, ürojinekoloji ve genital estetik alanlarında uzman hekim.'
-      : 'Obstetrics & Gynecology Specialist in Izmir Buca. Expert physician in pregnancy follow-up, delivery, gynecology, urogynecology, and genital aesthetics.',
+      ? 'İzmir Buca\'da Kadın Hastalıkları ve Doğum Uzmanı. Gebelik takibi, doğum, jinekoloji, ürojinekoloji ve kürtaj alanlarında uzman hekim.'
+      : 'Obstetrics & Gynecology Specialist in Izmir Buca. Expert physician in pregnancy follow-up, delivery, gynecology, urogynecology, and pregnancy termination.',
     url: baseUrl,
     telephone: CONTACT_INFO.phone,
     email: CONTACT_INFO.email,
@@ -137,10 +137,10 @@ export default function JsonLd({ locale }: JsonLdProps) {
       },
       {
         '@type': 'MedicalProcedure',
-        name: isTr ? 'Genital Estetik' : 'Genital Aesthetics',
+        name: isTr ? 'Kürtaj' : 'Pregnancy Termination',
         description: isTr
-          ? 'Labioplasti ve vajinal estetik işlemler'
-          : 'Labiaplasty and vaginal aesthetic procedures',
+          ? 'Yasal sınırlar içinde güvenli gebelik sonlandırma işlemleri'
+          : 'Safe pregnancy termination procedures within legal limits',
       },
       {
         '@type': 'MedicalProcedure',
@@ -404,12 +404,12 @@ export default function JsonLd({ locale }: JsonLdProps) {
       },
       {
         '@type': 'Question',
-        name: isTr ? 'İzmir Buca\'da genital estetik yapan yer var mı?' : 'Is there genital aesthetics in Izmir Buca?',
+        name: isTr ? 'İzmir Buca\'da kürtaj yapan yer var mı?' : 'Is there pregnancy termination in Izmir Buca?',
         acceptedAnswer: {
           '@type': 'Answer',
           text: isTr
-            ? 'Evet, Op. Dr. Fahri Temiz İzmir Buca\'da labioplasti, vajinal estetik ve genital bölge estetik işlemleri uygulamaktadır. Modern tekniklerle güvenli ve estetik sonuçlar elde edilmektedir.'
-            : 'Yes, Op. Dr. Fahri Temiz performs labiaplasty, vaginal aesthetics and genital area aesthetic procedures in Izmir Buca. Safe and aesthetic results are obtained with modern techniques.',
+            ? 'Evet, Op. Dr. Fahri Temiz İzmir Buca\'da yasal sınırlar içinde güvenli kürtaj (gebelik sonlandırma) işlemleri uygulamaktadır. Deneyimli hekim eşliğinde, hijyenik koşullarda, gizlilik esasına dayalı hizmet sunulmaktadır.'
+            : 'Yes, Op. Dr. Fahri Temiz performs safe pregnancy termination procedures within legal limits in Izmir Buca. Service is provided under hygienic conditions with confidentiality, accompanied by an experienced physician.',
         },
       },
       {

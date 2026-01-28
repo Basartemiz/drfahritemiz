@@ -8,7 +8,6 @@ import {
   Heart,
   Stethoscope,
   Activity,
-  Sparkles,
   HeartHandshake,
   Flower2,
   Shield,
@@ -26,7 +25,6 @@ const iconMap: Record<string, React.ElementType> = {
   Heart,
   Stethoscope,
   Activity,
-  Sparkles,
   HeartHandshake,
   Flower2,
   Shield,
@@ -55,6 +53,12 @@ const services = [
     colorClass: 'bg-red-500',
   },
   {
+    id: 'kurtaj',
+    slug: 'kurtaj',
+    icon: 'AlertCircle',
+    colorClass: 'bg-slate-600',
+  },
+  {
     id: 'gynecology',
     slug: 'jinekoloji',
     icon: 'Stethoscope',
@@ -65,12 +69,6 @@ const services = [
     slug: 'urojinekoloji',
     icon: 'Activity',
     colorClass: 'bg-green-500',
-  },
-  {
-    id: 'genitalAesthetics',
-    slug: 'genital-estetik',
-    icon: 'Sparkles',
-    colorClass: 'bg-amber-500',
   },
   {
     id: 'infertility',
@@ -101,12 +99,6 @@ const services = [
     slug: 'pelvik-taban',
     icon: 'Layers',
     colorClass: 'bg-indigo-500',
-  },
-  {
-    id: 'kurtaj',
-    slug: 'kurtaj',
-    icon: 'AlertCircle',
-    colorClass: 'bg-slate-500',
   },
 ];
 

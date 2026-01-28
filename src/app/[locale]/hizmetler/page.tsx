@@ -16,8 +16,8 @@ export async function generateMetadata({
       ? 'Kadın Sağlığı Hizmetleri | İzmir Buca'
       : 'Women\'s Health Services | Izmir Buca',
     description: isTr
-      ? 'İzmir Buca\'da kapsamlı kadın sağlığı hizmetleri. Gebelik takibi, doğum, jinekoloji, ürojinekoloji, genital estetik, kısırlık tedavisi. Op. Dr. Fahri Temiz.'
-      : 'Comprehensive women\'s health services in Izmir Buca. Pregnancy care, delivery, gynecology, urogynecology, genital aesthetics, infertility treatment. Op. Dr. Fahri Temiz.',
+      ? 'İzmir Buca\'da kapsamlı kadın sağlığı hizmetleri. Gebelik takibi, doğum, jinekoloji, ürojinekoloji, kürtaj, kısırlık tedavisi. Op. Dr. Fahri Temiz.'
+      : 'Comprehensive women\'s health services in Izmir Buca. Pregnancy care, delivery, gynecology, urogynecology, pregnancy termination, infertility treatment. Op. Dr. Fahri Temiz.',
     keywords: isTr
       ? [
           'izmir kadın sağlığı',
@@ -25,7 +25,7 @@ export async function generateMetadata({
           'gebelik takibi izmir',
           'doğum buca',
           'ürojinekoloji izmir',
-          'genital estetik buca',
+          'kürtaj izmir',
           'kadın doğum uzmanı izmir buca',
           'jinekolog buca',
         ]
@@ -35,7 +35,7 @@ export async function generateMetadata({
           'pregnancy care izmir',
           'delivery buca',
           'urogynecology izmir',
-          'genital aesthetics buca',
+          'pregnancy termination buca',
           'obstetrician izmir buca',
           'gynecologist buca',
         ],
