@@ -76,7 +76,7 @@ export const servicesData: Record<string, ServiceDetail> = {
   'kurtaj': {
     id: 'kurtaj',
     icon: 'AlertCircle',
-    colorClass: 'bg-slate-500',
+    colorClass: 'bg-rose-700',
   },
 };
 
