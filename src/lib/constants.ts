@@ -12,7 +12,7 @@ export const CONTACT_INFO = {
 };
 
 export const SOCIAL_LINKS = {
-  whatsapp: `https://wa.me/${CONTACT_INFO.phoneClean}?text=Merhaba,%20randevu%20almak%20istiyorum.`,
+  whatsapp: `https://wa.me/${CONTACT_INFO.phoneClean}?text=Merhaba,%20bilgi%20almak%20istiyorum.`,
   instagram: 'https://instagram.com/drfahritemiz',
   facebook: 'https://facebook.com/drfahritemiz',
 };
